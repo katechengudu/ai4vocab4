@@ -25,9 +25,21 @@ class Passage(models.Model):
     token_count = models.IntegerField(blank=True, null=True)
     sentence_count = models.IntegerField(blank=True, null=True)
     sentences = models.ManyToManyField('Sentence', blank=True)
+    haochen_database_id = models.CharField(max_length=36, blank=True, null=True)
+    gpt_response_academic_terms = models.TextField(null=True, blank=True)  
+    gpt_response_parsing_failed = models.TextField(null=True, blank=True)  # New field
     def __str__(self):
         return self.english_text
 
+
+
+class AcademicTerm(models.Model):
+    term = models.CharField(max_length=255, db_index=True)  # Added an index for better search performance
+    chinese_meaning = models.CharField(max_length=255, db_index=True)
+    source = models.ForeignKey(Passage, on_delete=models.CASCADE, related_name='academic_terms')
+    usage_context = models.TextField(blank=True, null=True)  # Optional field for additional context
+    def __str__(self):
+        return f"{self.term} ({self.chinese_meaning})"
 
 
 

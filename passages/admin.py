@@ -9,10 +9,6 @@ from import_export.admin import ImportExportModelAdmin
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('name',)
 
-class PassageAdmin(admin.ModelAdmin):
-    list_display = ('english_text', 'chinese_translation', 'order', 'token_count', 'sentence_count')
-
-
 class SentenceAdmin(admin.ModelAdmin):
     list_display = ('english_text', 'chinese_translation', 'token_count', 'has_clause', 'order')
 
@@ -34,14 +30,23 @@ class PassageResource(resources.ModelResource):
 
     class Meta:
         model = Passage
-        fields = ('english_text', 'book')
+        fields = ('haochen_database_id','english_text', 'book')
         import_id_fields = ()
 
 class PassageAdmin(ImportExportModelAdmin):
     resource_class = PassageResource
-    list_display = ('english_text', 'chinese_translation', 'order', 'token_count', 'sentence_count', 'book')
+    list_display = ('english_text', 'chinese_translation', 'gpt_response_academic_terms', 'haochen_database_id', 'order', 'token_count', 'sentence_count', 'book')
 
 
+
+from .models import AcademicTerm
+class AcademicTermAdmin(admin.ModelAdmin):
+    list_display = ('term', 'chinese_meaning', 'source')
+
+
+
+
+admin.site.register(AcademicTerm, AcademicTermAdmin)
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Book, BookAdmin)
 admin.site.register(Sentence, SentenceAdmin)
