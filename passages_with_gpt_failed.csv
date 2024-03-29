@@ -2,10 +2,25 @@ Passage ID,English Text,Chinese Translation,gpt_response_parsing_failed
 265859,"Preety is a student in Year 12,Preety ∉ F.Use this information to write a statement about Preety.
 
 ",Error in response,Preety is a student in Year 12 and it can be inferred that Preety is not a member of the set F.
+272501,"
+
+",,
+266271,"The mass of a cat is 4.3 kg correct to 2 significant figures.
+
+i)Write down the upper bound of the weight of the cat. ........................... kg [1]
+
+ii)Write down the lower bound of the weight of the cat. ........................... kg [1]
+
+",,
 272502,"
 
 ",,
 274402,"
+
+",,
+294329,"Method 1The second difference is always 6, which tells us that we have a quadratic sequence an2 + bn + c  and that:Therefore the first part of the nth term is 3n2. identifying 3n2 as part of the nth term [1]At this point it may be useful to complete the first four terms of the sequence using the first and second differences in the diagram.Write the sequence 3n2 and determine what needs needs to be added to it to get the given sequence.We see that to go from 3n2 to the sequence, we need to add the linear sequence 7, 5, 3, 1, ... . This linear sequence is going down by 2 each time so its first part is;[1]And for the linear sequence, when n = 1, −2n = −2 and the term itself is 7. When n = 1, to go from −2 to 7, we need to;[1]The linear sequence that needs to be added to 3n2 is −2n + 9. Put these together for the answer.nth term =  [1]
+
+Method 2The second difference is always 6, which tells us that we have a quadratic sequence an2 + bn + c  and that:Therefore the first part of the nth term is 3n2. identifying 3n2 as part of the nth term [1]When n = 1, the term is 10 therefore;And when n = 2, the term is 17 therefore;We have two simultaneous equations which we can simplify into a more recognisable form.Solve the simultaneous equations. Here we will use elimination.[1]Substitute b = -2 into  or .[1]Now replace a, b and c with the found values, in an2 + bn + c.nth term =  [1]
 
 ",,
 270826,"Water is poured into a tank.The graph shows the number of litres of water in the tank.How much water is poured into the tank each minute?Circle your answer.
@@ -26,6 +41,12 @@ Passage ID,English Text,Chinese Translation,gpt_response_parsing_failed
 271130,"Here is a sequence.Work out the next term.
 
 ",,
+270936,"and  are points on a grid. is the point with coordinates (106, 103) is the point with coordinates (106, 105) is the point with coordinates (104, 105.5) and  are two other points on the grid such that    is the midpoint of     is the midpoint of Work out the coordinates of the point .
+
+",,
+296043,"Find angle ADO.Angle ADO = 90o   (Angle between a tangent and a radius = 90o)Find acute angle AOD.Acute Angle AOD + Angle ADO + Angle DAO = 180o   (Angles in a triangle = 180o)Angle AOD + 90 + 40 = 180Angle AOD = 50o Correct working to find angle AOD [1]Find reflex angle AOD.Reflex Angle AOD  + Acute Angle AOD = 360o   (Angles around a point = 360oReflex Angle AOD  + 50 = 360Reflex Angle AOD  = 310oFind angle BCD.2 x Angle BCD = Reflex Angle AOD   (Angle at the centre is twice the angle at the circumference)2 x Angle BCD  = 310 Correct working to find angle BCD [1]Angle BCD = 155o [1]At least two reasons, one of which is a circle theorem [1] Complete reasons for method [1]
+
+",,
 271845,"Which one of these is a unit of density?Circle your answer.
 
 ",,
@@ -44,7 +65,13 @@ Passage ID,English Text,Chinese Translation,gpt_response_parsing_failed
 272163,"Here are the first four terms of a sequence of fractions.The numerators of the fractions form the sequence of whole numbers The denominators of the fractions form the sequence of odd numbers Write down an expression, in terms of , for the  term of this sequence of fractions.
 
 ",,
+272321,"and  are straight lines. is parallel to .Angle  is the midpoint of .Work out the area of trapezium .
+
+",,
 272388,"A function is represented by the following function machine.A number is input into the machine.The output is used as a new input.The second output is 11.Work out the number that was the first input.
+
+",,
+272505,"The triangle  is to be enlarged, using  as the centre, to give the triangle . The line  is the image of the line .Complete the triangle .
 
 ",,
 272591,"Calculate , writing down your full calculator display.
@@ -148,6 +175,11 @@ Find  when  Give your answer in standard form, correct to 4 significant figure
 277563,"On the same diagram, draw a sketch of the graph of
 
 ",,
+299352,"Method 1Mitul has divided the lower bound of the total mass by the upper bound of the mass of one coin. Therefore he has worked out the lower bound for the number of coins.Check the lower bound for the total mass of 301 coins by multiplying the lower bound of the mass of one coin by 301.301 × 8.745 g = 2632.245 gMultiplying a possible mass by 301 [1]Answer between 2625 and 2635 [1]Round this to the nearest 10 g and then divide by 1000 to convert to kilograms.2632.245 g ≈ 2630 g2630 ÷ 1000 = 2.63 kgMitul may be incorrect as £301 could weigh 2.63 kg to the nearest 10 g [1]
+
+Method 2Mitul has divided the lower bound of the total mass by the upper bound of the mass of one coin. Therefore he has worked out the lower bound for the number of coins.Work out the upper bound for the number of coins by dividing the upper bound for the total mass by the lower bound for the mass of a coin.2635 g ÷ 8.745 g = 301.3150...Dividing a possible total mass by a possible mass of a coin  [1]Answer over 301 [1]The number of coins is in the range 299.8 to 301.3 (1dp).Mitul may be incorrect as there could be £301 [1]
+
+",,
 277932,"The diagram below shows a 1cm coordinate grid.Find an inequality that defines region A and another inequality that defines region B.
 
 ",,
@@ -177,6 +209,11 @@ Find  when  Give your answer in standard form, correct to 4 significant figure
 278948,"The distance from Fulbeck to Ganby is 10 miles.The distance from Ganby to Horton is 18 miles.Raksha is going to drive from Fulbeck to Ganby.Then she will drive from Ganby to Horton.Raksha leaves Fulbeck at 10 00She drives from Fulbeck to Ganby at an average speed of 40 mph.Raksha wants to get to Horton at 10 35Work out the average speed Raksha must drive at from Ganby to Horton.
 
 ",,
+278922,"(i)Write  in the form . [2]
+
+(ii)Use your answer to part (i) to solve the equation . ................... or ................... [2]
+
+",,
 279077,"In a survey, the outside temperature and the number of units of electricity used for heating were recorded for ten homes.The scatter diagram shows this information.Molly says,Is Molly right?Show how you get your answer.
 
 ",,
@@ -192,6 +229,19 @@ Find  when  Give your answer in standard form, correct to 4 significant figure
 268661,"Expand
 
 ",Error in response,"While processing large textual sources, natural language processing (NLP) techniques can be used to automatically expand abbreviations or acronyms. This can help in enhancing the readability and understanding of the text."
+301177,"Method 1An enlargement changes the size of the shape. As the scale factor is between 0 and 1, the shape should be smaller and closer to the centre of enlargement.Choose a corner and find the displacement from the centre to this corner. Starting at this corner count the distance of each side around the shape. You can ignore one of the diagonal sides as this can be made by joining together the two corners.Multiply each length/displacement by the scale factor. Starting at the centre use the new displacement to find the position of the new corner. Then use the new lengths to draw the enlarged shape.To check your answer you can draw a straight line going through the centre and a corner of the original shape, the corresponding corner on the enlarged shape should also lie on this line.[1]Find the area of the new triangle using the formula , where b is the base and h is the perpendicular height.[1]Area = 1.5 cm2 [1]
+
+Method 2Find the area of the new triangle using the formula , where b is the base and h is the perpendicular height.[1]Find scale factor of the enlargement will be the length scale factor between the original triangle and the enlarged triangle. The area scale factor can be found by squaring the length scale factor.Multiply the original area by the area scale factor.[1]Simplify.Area = 1.5 cm2 [1]
+
+",,
+294247,"i)The next biggest two significant figure that the mass could have rounded to is 4.4. The upper bound for a mass which rounds to 4.3 is halfway between 4.3 and 4.4. The difference between the values is 0.1 so you need to add 0.05 to the rounded value.4.3 + 0.05 = 4.35Upper bound is 4.35 kg [1]
+
+ii)The next smallest two significant figure that the mass could have rounded to is 4.2. The lower bound for a mass which rounds to 4.3 is halfway between 4.2 and 4.3. The difference between the values is 0.1 so you need to subtract 0.05 from the rounded value.4.3 - 0.05 = 4.25Lower bound is 4.25 kg [1]
+
+",,
+294324,"Method 1The quickest method is to subtract the probability that the team wins no matches from 1.   Finding probability of losing both matches [1]Subtracting from 1 [1] [1]Method 2Find the sum of the probability of winning one or both of the matches.Finding probability of winning one of the matches [1]Adding all three probabilities together [1] [1]
+
+",,
 266083,"Complete the statement.
 
 When  ............... , .
@@ -216,6 +266,9 @@ When  ............... , .
 266520,"
 
 ",,
+266498,"Jamil walks in a straight line from  to .Work out the size of angle .You must show your working.........................degrees
+
+",,
 266712,"
 
 ",,
@@ -229,6 +282,11 @@ When  ............... , .
 
 ",Error in response,"Sorry, but could you please provide more context or details? What exactly do you want me to show?"
 266879,"
+
+",,
+266909,"Write 120 as a product of its prime factors.[3]
+
+The lowest common multiple (LCM) of x and 120 is 360.Find the smallest possible value of x.[2]
 
 ",,
 267026,"
@@ -259,6 +317,15 @@ When  ............... , .
 
 ",Error in response,Please provide the options or the number that needs to be evaluated.
 267601,"
+
+",,
+267638,"
+
+",,
+267782,"[2]
+
+",,
+267842,"[1][2]
 
 ",,
 267981,"Circle the volume that is the same as
@@ -297,6 +364,9 @@ When  ............... , .
 268641,"Expand
 
 ",Error in response,"Sorry, but I'm not sure what you mean by ""expand"". Could you please provide more context or clarify your request?"
+268776,"[1][2]
+
+",,
 268805,"
 
 ",,
@@ -332,6 +402,14 @@ Please choose the correct option and check the corresponding letter."
 269972,"
 
 ",,
+300835,"Method 1Substitute  into  and write your answer in the tableRepeat for  and  2 correct values [1]all 3 correct values [1]
+
+Method 2Recognise that  is a linear equation, so as the  values are increasing by 1 each time, the  values increase by 2 each timeStarting with the first missing value:Repeat for the next two missing values2 correct values [1]all 3 correct values [1]
+
+",,
+270149,"[1][2]
+
+",,
 270188,"
 
 ",,
@@ -350,12 +428,18 @@ Please choose the correct option and check the corresponding letter."
 270196,"
 
 ",,
+270314,"
+
+",,
 270362,"
 
 ",,
 270382,"Complete the table of values for
 
 ",Error in response,Please provide the complete question or statement for me to assist you further.
+270384,"
+
+",,
 270558,"
 
 ",,
@@ -476,6 +560,9 @@ Please choose the correct option and check the corresponding letter."
 
 ",,
 270918,"
+
+",,
+270951,"
 
 ",,
 270975,"Show that
@@ -668,6 +755,9 @@ Please choose the correct option and check the corresponding letter."
 
 ",,
 271217,"Circle the fraction that is equivalent to
+
+",,
+271221,"
 
 ",,
 271251,"Show that
@@ -1011,6 +1101,9 @@ Find  when  Give your answer in standard form, correct to 4 significant figure
 271562,"The region , shown shaded in the diagram, is bounded by three straight lines.Write down the three inequalities that define .
 
 ",,
+271571,"[2]
+
+",,
 271563,"The shaded region in the diagram is bounded by three lines.The equation of one of the lines is given.Write down three inequalities that define the shaded region.
 
 ",,
@@ -1201,6 +1294,13 @@ Find  when  Give your answer in standard form, correct to 4 significant figure
 
 ",,
 271996,"Show that
+
+",,
+271987,"Find
+
+i)[1]
+
+ii)[1]
 
 ",,
 272022,"Here is a five-sided spinner.The table shows the probabilities that the spinner will land on A or on B or on C or on D.Kirsty spins the spinner once.Work out the probability that the spinner will land on E.
@@ -1407,6 +1507,9 @@ Find  when  Give your answer in standard form, correct to 4 significant figure
 272298,"Construct the graph of
 
 ",,
+272265,"and  are straight lines. is parallel to .Angle  is the midpoint of .Work out the area of trapezium .
+
+",,
 272328,"Express  in the form where  and  are integers.Show your working clearly.
 
 ",,
@@ -1468,6 +1571,9 @@ Find  when  Give your answer in standard form, correct to 4 significant figure
 
 ",,
 272392,"
+
+",,
+272404,"Find the value of  and the value of .   = ...............................................      = ...............................................
 
 ",,
 272420,"Expand and simplify
@@ -2774,6 +2880,9 @@ By shading the unwanted regions of the grid, draw and label the region  which sa
 274193,"Solve the inequality
 
 ",,
+274189,"is a right-angled triangle.Angle = 90° is parallel to .The area of triangle  is 8 cm2The area of triangle  is 16 cm2Work out the area of triangle .
+
+",,
 274200,"Show that
 
 ",,
@@ -3242,6 +3351,9 @@ By shading the unwanted regions of the grid, draw and label the region  which sa
 274832,"Here is a biased 5-sided spinner.When the spinner is spun, it can land on red, blue, green, brown or yellow.The table gives the probabilities that the spinner lands on red or on blue or on green.When the spinner is spun once, the probability that the spinner lands on brown is  more than the spinner lands on yellow.Jennie spins the spinner  times.Work out an estimate for the number of times the spinner lands on yellow.
 
 ",,
+274806,"[1]
+
+",,
 274838,"The shaded region in the diagram is bounded by three lines.The equation of one of the lines is given.Write down the three inequalities that define the shaded region.
 
 ",,
@@ -3288,6 +3400,9 @@ By shading the unwanted regions of the grid, draw and label the region  which sa
 
 ",,
 274905,"Show that
+
+",,
+274900,"[1]
 
 ",,
 274908,"Given that   and that find an expression for  in terms of .Give your expression as a single fraction in its simplest form.
@@ -4333,6 +4448,12 @@ If he jumps at least 7.5 metres he does not jump again on Friday.
 276380,"Solve these simultaneous equations algebraically. = .....................  = ..................... = .....................  = .....................
 
 ",,
+276382,"[1][2]
+
+",,
+276370,"[1][2]
+
+",,
 276390,"Martha’s solution to the inequality  is shown on the number line.Is her solution correct?Explain your reasoning.
 
 ",,
@@ -4938,6 +5059,9 @@ Find the three inequalities that define the region .
 277318,"Simplify
 
 ",,
+277304,"Find the value of  and the value of .   = ...............................................      = ...............................................
+
+",,
 277326,"Solve the inequality Show your working clearly.
 
 ",,
@@ -5089,6 +5213,9 @@ Find the three inequalities that define the region .
 
 ",,
 277546,"and  are points on a circle, centre . is a tangent to the circle. is a straight line.Angle .Find the size of angle , in terms of .Give your answer in its simplest form.Give reasons for each stage of your working.
+
+",,
+277560,"[1][2]
 
 ",,
 277547,"Solve the simultaneous equations       Give your answers correct to  decimal places.
@@ -5270,6 +5397,9 @@ angle FDE = 43°.
 
 ",,
 277802,#ERROR!,,
+277787,"[1][2]
+
+",,
 277804,"Expand and simplify
 
 ",,
@@ -6512,6 +6642,11 @@ One of these athletes jumps 15.12 m in the triple jump. Write down his time for 
 279756,"Solve         Give your solutions correct to  significant figures.
 
 ",,
+302999,"i)The next biggest two significant figure that the mass could have rounded to is 4.4. The upper bound for a mass which rounds to 4.3 is halfway between 4.3 and 4.4. The difference between the values is 0.1 so you need to add 0.05 to the rounded value.4.3 + 0.05 = 4.35Upper bound is 4.35 kg [1]
+
+ii)The next smallest two significant figure that the mass could have rounded to is 4.2. The lower bound for a mass which rounds to 4.3 is halfway between 4.2 and 4.3. The difference between the values is 0.1 so you need to subtract 0.05 from the rounded value.4.3 - 0.05 = 4.25Lower bound is 4.25 kg [1]
+
+",,
 300475,"
 
 
@@ -6536,6 +6671,16 @@ One of these athletes jumps 15.12 m in the triple jump. Write down his time for 
 298866,"Start by making a common denominator on the left-hand side.To do this we need the lowest common denominator (lcd) of 4 and (x + 2).This can be found by multiplying them together.lcd of 4 and (x + 2) is 4(x + 2)Rewrite both fractions with the common denominator.The first fraction will need its numerator multiplying by (x + 2) and the second fraction by 4.[1]Write as a single fraction over the common denominator;  expand and simplify the numerator.[1]Factorise the numerator and cancel any common factors.There are no common factors to cancel.Bring in the right-hand side of the equation and remove the fraction by multiplying both sides of the equation by the denominator.[1]Expand and rearrange to get a quadratic equation.[1]The question suggests this quadratic will not factorise. (easily) as it is asking for answers to 2 decimal places so use the quadratic formula.[1]Round final answers to 2 decimal places.  (2 d.p.) [1]
 
 ",,
+295570,"i)The next smallest one decimal place that the length could have rounded to is 33.7. The lower bound for a length which rounds to 33.8 is halfway between 33.7 and 33.8. The difference between the values is 0.1 so you need to subtract 0.05 from the rounded value.33.8 - 0.05 = 33.75Lower bound is 33.75 cm [1]
+
+i)The next biggest one decimal place that the length could have rounded to is 33.9. The upper bound for a length which rounds to 33.8 is halfway between 33.8 and 33.9. The difference between the values is 0.1 so you need to add 0.05 to the rounded value.33.8 + 0.05 = 33.85Upper bound is 33.85 cm [1]
+
+",,
+295619,"i)Input this into your calculatorThe answer is exact (it does not need rounding)200 [1]
+
+Input this into your calculatorThe first decimal place is a 6 and the second decimal place is a 2The second decimal place is less than 5 so no rounding up is needed 5.6 [1]
+
+",,
 295659,"Before starting this question, make sure you are familiar with finding equations of straight lines (y = mx + c), and equations of perpendicular linesIt is a good idea to start with a sketch for a question like this(Note that the radius of the circle, which is 2, is not needed to answer this question)First work out the gradient of the radius, OP, using gradient = You can use your calculator, but be careful to input the square roots and fractions in the correct places(If your calculator gives you the answer in exact form, it's best to work with this rather than the rounded decimal)[1]The tangent is perpendicular to the radius. Therefore the gradient of the tangent at P is the negative reciprocal of the gradient of OP [1]The tangent takes the form . Substitute the point P  into Solve to find . Remember you can use your calculator to do the calculationsWrite the equation of the tangent using your found values of  and  [1]Other forms of the answer such as  or  are permitted
 
 ",,
@@ -6557,6 +6702,9 @@ One of these athletes jumps 15.12 m in the triple jump. Write down his time for 
 272314,"Here is a quarter circle of radius 6 cmWork out the area of the quarter circle.Give your answer in terms of .............................cm2
 
 ",,
+296377,"Write two comparisons that talk about the ""number of customers entering the shop"" (not about the shape of the graph) On average, more people entered the shop in 2016 than in 2015 [1]there were more people entering the shop in Jul-Sept 2016 than in Jul-Sept 2015 [1]No comments about the shape of the graph are allowed (must refer to number of customers)Two comments must come from different categories belowcategory 1: compare overall numbers in 2015 with over numbers in 2016category 2: compare a specific season in 2015 with the same season in 2016category 3: compare seasons within the same yearcategory 4: compare increases / decreases in number of people, referring to gradients
+
+",,
 272616,"is a regular pentagon. and  are straight lines.Work out the size of angle .You must show how you got your answer.
 
 ",,
@@ -6566,7 +6714,13 @@ One of these athletes jumps 15.12 m in the triple jump. Write down his time for 
 273400,"Kalinda buys  packs of currant buns and  boxes of iced buns.There are 6 currant buns in a pack of currant buns.There are 8 iced buns in a box of iced buns.Kalinda buys a total of  buns.Write down a formula for  in terms of  and .
 
 ",,
+296645,"Give one correct overall comment and one correct seasonal comment.He sells more at the end of the year (seasonal) [1]He sells more each year (overall) [1]Other possible correct comments include:Tom sells more in the 4th quarter each year (seasonal)He sells less at the start of the year (seasonal)His sales fluctuate but are slowly rising (overall)They have increased (overall)
+
+",,
 302380,"Number the equations. There is one quadratic equation and one linear equation so this must be done by substitution.Rearrange equation (2) so that the subject is either  or , will be the easiest to work with here.Substitute this into equation (1) to eliminate . [1]Expand the brackets, remember that a bracket squared should be treated the same as double brackets.Simplify. [1]Rearrange to form a quadratic equation that is equal to zero.The question does not give a specified degree of accuracy, so this can be factorised.Take out the common factor of .[1]Solve to find the values of .Let each factor be equal to 0 and solve.[1]Substitute the values of  into one of the equations (the linear equation is easier) to find the values of .                     [1]
+
+",,
+296913,"Find angle DEC.Angle DEC + Angle CEB  = 180o  (Angles on a straight line)[1]Find angle EDC.Angle DAB + Angle CDA = 180o (Co-interior angles)[1]Form an equation for the interior angles of triangle CDE and solve to find .Angle CDE + Angle DEC + Angle DCE = 180o   (Angles in a triangle) [1]Fully correct reasons [1]
 
 ",,
 302465,"We should recognise the equation as the equation of a circle  where  is the radius and the centre is (0, 0)From this we can find the radiusSketch a circle with centre (0, 0) and radius 4. Mark the centre (0, 0) and points of intersection with the x-axis, (−4, 0) and (4, 0)A translation by vector  means the circle has been shifted 3 to the rightSo the centre becomes (0+3, 0) = (3, 0)the x-intercepts become (−4+3, 0) = (−1, 0) and (4+3, 0) = (7, 0)Sketch the new circlecircle with radius 4  [1]circle with centre (3, 0)  [1]circle with x-intercepts at (−1, 0) and (7, 0)  [1]Note the required answer is a sketch: it does not need to be drawn to scale- but it should clearly be a circle so it is best to use a pair of compasses
@@ -6593,13 +6747,41 @@ One of these athletes jumps 15.12 m in the triple jump. Write down his time for 
 274799,"Express  as a single fraction.Give your answer in its simplest form.
 
 ",,
+297698,"Write two comparisons that talk about the ""number of customers entering the shop"" (not about the shape of the graph) On average, more people entered the shop in 2016 than in 2015 [1]there were more people entering the shop in Jul-Sept 2016 than in Jul-Sept 2015 [1]No comments about the shape of the graph are allowed (must refer to number of customers)Two comments must come from different categories belowcategory 1: compare overall numbers in 2015 with over numbers in 2016category 2: compare a specific season in 2015 with the same season in 2016category 3: compare seasons within the same yearcategory 4: compare increases / decreases in number of people, referring to gradients
+
+",,
 298066,"
 
 ",,
 299885,"Think of  in two different ways (one using MZ and another using OY)First, go from O to M  You would next go from M to N, but this distance is unknown is some smaller ""amount"" of the vector (parallel vectors) so write (where k is a scalar multiple that you can find later) [1]Write down this total journey as one vector,  [1]Now find O to N using a different method / journey is λ ""amounts"" of the vector  (parallel vectors) so write  (where λ is a scalar multiple, different to k used previously) [1]Compare the previous version of  to this version of    and   Expand the expressions and collect the a's and b's   and   Both expressions represent the same journey, , so the amount of a's and b's must be equalForm two equations by setting the amount of a's equal and the amount of b's equal  and  [1]Solve these equations simultaneously, for example by substituting  into the first equation  [1]
 
 ",,
+298229,"(i) of an amount of carrots needs to equal 10 000Call the amount x and form an equation  Multiply both sides by 7 and divide both sides by 3 [1]Work out this value  Round this to the nearest whole number, as x is a number of carrots (so can't be a decimal) 23 333 carrots [1]whole numbers from 23 000 to 23 334 (inclusive) are accepted(to guarantee at least 10 000 whole carrots, 23 334 carrots are needed as 23 333 are not quite enough)
+
+(ii)Comment on the fact that Jeat's garden and the farm are different environments or that Jeat's sample is too small to make big decisions from The growing conditions on the farm may be different to the garden [1]Accept also ""Jeat's sample is too small""References to part (b)(i) not being an integer are not accepted
+
+",,
+298730,"Method 1: Using ""transformations of functions""Curve  has the equation  where  . Therefore;This is the same equation as curve . And  represents a reflection in the x-axis.A reflection in the x-axis [1]
+
+Method 2: Using ""quadratic graphs"" and ""turning point by completing the square""Using your knowledge of quadratic graphs and turning point by completing the square, sketch the curve  and curve .The equation  tells us curve  is a n-shaped parabola with a turning point (−2, 9).The equation  tells us curve  is a u-shaped parabola, the same ""width"" as curve  and with a turning point (−2, −9).We can see from the sketch or from the information above that  and  are reflections of each other in the x-axis.A reflection in the x-axis [1]r
+
+",,
+298791,"Method 1A reflection in the -axis changes  to . This changes  to;[1]Expand the squared brackets.[1]Expand the remaining bracket and collect like terms. [1]
+
+Method 2A quadratic equation in completed square form  has turning point at .  has a turning point at Reflect the turning point in the -axis, keeping the value of '' the same.turning point at [1]Expand the squared brackets.[1]Expand the remaining bracket and collect like terms. [1]
+
+",,
+298858,"Method 1Complete the square to rearrange  into the form , as the turning point is  at least one correct step in completing the square [1]completing the square correctly [1]From this we can state the turning point [1]
+
+Method 2 is the functions notation for Differentiate[1]To find the turning point, equate the derivative to zero[1]SolveNote that the question asks for the coordinates, so we need the y coordinate too [1]
+
+",,
 300438,"
+
+",,
+299013,"Method 1In a parallelogram each pair of adjacent angles are co-interior angles (allied angles) so they add up to 180°.Angles BCD and CDA are co-interior angles so add up to 180°[1]Vertically opposite angles that are formed by two intersecting lines are equal.Angles CDA and EDF are vertically opposite so are equalIn an isosceles triangle the base angles are equal.Angles DEF and DFE are the base angles in an isosceles triangle so are equalThe interior angles in a triangle add up to 180°.Angles EDF, DEF and DFE are the interior angles in a triangle so add up to 180°[1] [1]One correct reason stated [1]All correct reasons stated [1]
+
+Method 2The lines BC and AD are parallel. Corresponding angles in parallel lines are equal.Angles BCD and ADF are corresponding angles so are equal[1]In an isosceles triangle the base angles are equal.Angles DEF and DFE are the base angles in an isosceles triangle so are equalThe sum of two angles in a triangle is equal to the opposite exterior angle.Angles DEF and DFE are two interior angles in a triangle opposite the exterior angle ADF so the sum of the two interior angles is equal to the exterior angle[1] [1]One correct reason stated [1]All correct reasons stated [1]
 
 ",,
 294554,"The height of the sunflower each day is a linear sequence starting at 80 cm and increasing by 4 each term;80, 84, 88, ...1.06 m = 106 cm. We need to know how many times to add 4 until we get to 106 in the sequence.Find the difference between 106 and 80.106 − 80 = 26[1]Divide this by 4.26 ÷ 4 = 6.5[1]This answer must be rounded up as the question asks ""how many days... more than 106 m?"" By the 6th day, the sunflower has not reached 106 cm. But by the 7th it has.7 days [1]An answer of ""6.5"" does not achieve the final mark
@@ -6622,13 +6804,41 @@ One of these athletes jumps 15.12 m in the triple jump. Write down his time for 
 295034,"First we need to rewrite the top as powers of prime numbers only.2 and 3 are already prime, so it is 18 we need to change.To do this we need the prime factorisation of 18.Rewrite the equation, including substituting in the given value for M and multiplying both sides by 122.[1]Use the laws of indices  and .Use the law of indices  to simplify the right hand side of the equation.Expand and simplify the powers of 2 and 3.32 is just a number (9) so we can divide both sides by it.  Also simplify the equation.[1]Rewriting 32 as a power of 2 allows us to set up an equation by comparing the indices.[1]This is a quadratic and so can be solved either by factorsing, completing the square or using the quadratic formula.[1]Solve by equating each factor to zero.There are no restrictions on the values of n so both answers are valid. [1]
 
 ",,
+299861,"(i)Go from A to O to B  [1]
+
+(ii)Go from K to J to IK to J is double A to B, found in part (i)J to I is double O to B [1]Expand and simplify  [1]
+
+(iii)Go from L to F to E to DL to F and E to D are both the same as A to B, found in part (i)F to E is the negative of O to A [1]Expand and simplify  [1]There are many other possible paths that lead to the same answer, such as L to F to O to D
+
+",,
+300043,"Method 1Find the exterior angle for each regular polygon using the formula  Substitute n = 5 into the formula for the pentagon and n = 6 for the hexagon.Using the correct formula [1]At least one correct angle [1]The angle a is made up by an exterior angle of the pentagon and an exterior angle of the hexagon. Add together the exterior angles to find a. [1]
+
+Method 2Find the interior angle for each regular polygon using the formula  Substitute n = 5 into the formula for the pentagon and n = 6 for the hexagon.Using the correct formula [1]At least one correct angle [1]The angle a and the two interior angles made a full turn. Subtract the interior angles from 360° to find the value of a. [1]
+
+",,
 295225,"In a speed-time graph, the acceleration at any given point is equal to the gradient of the tangent at that point. So draw a tangent at t = 7 and calculate its gradient.The tangent is a straight line touching the curve at t = 7 but not crossing the curve (there is some margin of error- see note below final answer). E.g.:suitable tangent drawn [1]Using gradient =  or ;acceleration = gradient = correct calculation for gradient based on your tangent line [1]                                                            = 4.193548387...This answer will depend on your tangent line so there is some margin of error (see below). Round to at least 3 significant figures if necessary.Acceleration = 4.19 m/s2 [1]Any answer from 4 to 4.5 is accepted, so long as it is correct for your tangent line and rounded correctly
 
 ",,
 300272,"Rewrite the equation using the solution from part (a).Add 108 to both sides.Square root both sides. Remember there are two values, a positive and a negative.[1]Add 9 to both sides.Simplify the expressions using your calculator. or [1]Rounding to 3sf is acceptable:  or
 
 ",,
+296224,"(i) of an amount of carrots needs to equal 10 000Call the amount x and form an equation  Multiply both sides by 7 and divide both sides by 3 [1]Work out this value  Round this to the nearest whole number, as x is a number of carrots (so can't be a decimal) 23 333 carrots [1]whole numbers from 23 000 to 23 334 (inclusive) are accepted(to guarantee at least 10 000 whole carrots, 23 334 carrots are needed as 23 333 are not quite enough)
+
+(ii)Comment on the fact that Jeat's garden and the farm are different environments or that Jeat's sample is too small to make big decisions from The growing conditions on the farm may be different to the garden [1]Accept also ""Jeat's sample is too small""References to part (b)(i) not being an integer are not accepted
+
+",,
+300982,"Method 1Divide the two numbers  Subtract the powers of e (using the index law )  Subtract the powers of f (using the index law ) either the e or f term correct [1]Multiply the three terms together [1]Method 2Simplify the fraction  (by dividing top-and-bottom by 5)  Cancel one e term from top-and-bottom  Cancel two f terms from top-and-bottom either the e or the f term correct [1]Put the three terms together to form the final answer  [1]
+
+",,
+298135,"Method 1A reflection in the -axis means multiply the equation by -1. This changes  to;[1]Expand the squared brackets.[1]Expand the remaining bracket and collect like terms. [1]
+
+Method 2A quadratic equation in completed square form  has turning point at .  has a turning point at Reflect the turning point in the -axis, keeping the value of '' the same.turning point at [1]Expand the squared brackets.[1]Expand the remaining bracket and collect like terms. [1]
+
+",,
 301656,"At least one is faulty' is the same thing as 'both aren't not faulty'.The easiest way to do this is to find the 'not faulty AND not faulty' probability and subtract it from 1.In combined probabilities, 'and' usually means 'multiply'.So multiply 0.98 by 0.95 to find the probability both bottles are not faulty.[1]Then subtract that from 1 to find the probability that at least one is faulty.0.069  [1]You can also do this by multiplying to get the probabilities for 'faulty AND faulty', 'faulty AND not faulty', and 'not faulty AND faulty', and then adding those together to get the answer.I.e.,
+
+",,
+301680,"Calculate the area of the entire garden.17 x 9.5 = 161.5 m2Calculate the area of the patio.2.8 x 9.5 = 26.6 m2[1]Find the radius of a pond by dividing its diameter by 2.Calculate the area of one pond, using .[1]Calculate the area of the grass by subtracting the areas of the patio and two ponds from the area of the entire garden.[1]Values between 112 - 113 are accepted [1]Calculate the number of boxes that Mr Weaver will need by dividing the area of the grass by the area that one box of fertiliser will cover.Round up to the next number of whole boxes.5 boxes [1]
 
 ",,
 295723,"The number of buttons in tin B in terms of x is;The number of buttons in tin C in terms of x is; for  """" or """" [1]Add the number of buttons in tin A, tin B and tin C, in terms of x and equate to 137.[1]Simplify and solve.[1]Divide both sides by 6 to obtain the number of buttons in tin A.Answer = 24 [1]
@@ -6641,6 +6851,11 @@ One of these athletes jumps 15.12 m in the triple jump. Write down his time for 
 
 ",,
 296023,"Calculate , the scale factor of enlargement for the heights, using For similar shapes, if the length scale factor is , then the area scale factor is If we let the surface area of vase A be  and the surface area of vase B be  then We know that the surface area of vase A multiplied by  gives the surface area of vase B. SoSubstitute  into  to form an equation in [1]Solve. Start by adding the fractions on the left-hand side[1]Surface area of vase A = 583.2 cm2  [1]
+
+",,
+296011,"Method 1Divide the shape into two rectangles as below:The height of the top rectangle is unknown but we can write it in terms of x and simplify:Write the area of the top rectangle in terms of x:The area of the bottom rectangle in terms of x is:either of the two areas above expressed in terms of x [1]The area of the shape is 65 cm2 so add theareas of the two rectangles together and equate to 65. [1]Expand the brackets and collect like terms (on the left hand side).left hand side fully expanded and simplified [1]Now rearrange into the form  (where a is a positive number) in order to solve the quadratic equation.[1]There is no common factor of 3, 38 and 55. Although you could try to solve by factorising or completing the square, the numbers look quite daunting and it is a calculator question, so it is probably quicker and less risky to use the quadratic formula. (It does actually factorise if you want to try it)Be careful with the negative numbers. quadratic formula correctly applied, or left-hand-side of equation factorised [1]If x = 11 was a solution, then the short side on the diagram marked x would be longer than the side marked 10- so 11 would be smaller than 10! This is clearly a contradiction so x is not a valid answer.You can acknowledge that x = 11 is a solution to the equation by writing it down, but make sure you cross it out to show that you understand that it cannot be an answer to the question! [1]You may give this answer as a mixed fraction or a rounded decimal but you will lose a mark for writing ""x = 11"" as an answer
+
+Method 2Divide the shape into two rectangles as below:The length of the right-hand rectangle can be written in terms of x:Write the area of the right-hand rectangle in terms of x:The area of the left-hand rectangle in terms of x is:either of the two areas above expressed in terms of x [1]The area of the shape is 65 cm2 so add theareas of the two rectangles together and equate to 65. [1]Expand the brackets and collect like terms (on the left hand side).left hand side fully expanded and simplified [1]Now rearrange into the form  (where a is a positive number) in order to solve the quadratic equation.[1]There is no common factor of 3, 38 and 55. Although you could try to solve by factorising or completing the square, the numbers look quite daunting and it is a calculator question, so it is probably quicker and less risky to use the quadratic formula. (It does actually factorise if you want to try it).Be careful with the negative numbers.quadratic formula correctly applied, or left-hand-side of equation factorised [1]If x = 11 was a solution, then the short side on the diagram marked x would be longer than the side marked 10- so 11 would be smaller than 10! This is clearly a contradiction so x is not a valid answer.You can acknowledge that x = 11 is a solution to the equation by writing it down, but make sure you cross it out to show that you understand that it cannot be an answer to the question! [1]You may give this answer as a mixed fraction or a rounded decimal but you will lose a mark for writing ""x = 11"" as an answer
 
 ",,
 271360,"A shop sells packs of black pens, packs of red pens and packs of green pens.There are      2 pens in each pack of black pens      5 pens in each pack of red pens      6 pens in each pack of green pensOn Monday,A total of 212 pens were sold.Work out the number of green pens sold.
@@ -7118,6 +7333,11 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 294160,"Start by storing  under the ANS button - to do this type in ""-1"" and then the ""=""/""EXE"" button.-1=/EXENow type the (right-hand side of the) iterative process into your calculator, exactly as it appears in the question except using the ""ANS"" button where  appears.Be sure to only press ""=""/""EXE"" once - if you accidentally press it more than once - or are in any doubt - you are best restarting from the beginning.To find  press ""=""/""EXE"" once, again being careful to only do so once and restarting if in doubt.One mark for each [2]Note we have not rounded , its exact value is -0.390 625.
 
 ",,
+294262,"Method 1The position vector of the midpoint of the line AB is found using the formula .[1]Simplify. [1]
+
+Method 2Find a path starting at A and ending at B using known vectors.Use the property that reversing the direction of the vector is the same as multiplying it by -1.Use the given vectors. [1]M is the midpoint of AB therefore .Find a path from O to M.Simplify.  [1]
+
+",,
 294239,"Before starting, mark the bearing of J from K on the diagram so that you are clear which angle you are trying to find: Triangle JKP is isosceles so you can calculate the size of angles PJK and PKJ.[1]Mark this result on the diagram.If you extend the North line southwards, you can see that angle PJK and the angle marked y are alternate angles. (We are told that J is due South of P; so PJ and the North/ South line are parallel lines).[1]The bearing (marked as x above) is 180° plus 62°.Answer = 242° [1]
 
 ",,
@@ -7128,6 +7348,14 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 
 ",,
 294314,"Rewrite 20 as a multiplication involving a square number, in this case 4[1]Rewrite this surd using the fact that Simplify using  [1]
+
+",,
+294339,"i) The line A touches the circle at a single pointLine A is a tangent [1]ii) Shaded region B is formed by a line joining two points on the circumference, which does not pass through the centre; a chordShaded region B is a segment [1]
+
+",,
+294345,"Method 1Multiply 14.3 pence by 450 to compare with the result of part (a). But convert 14.3 pence to £0.143 first.0.143 × 450[1]cost for 450 kwH = £64.35[1]Company B would have the steeper line because the cost per unit of electricity is higher [1]
+
+Method 2Plot the gradient represented by 14.3 pence (£0.143) per hour on the graph. For example, after 200 hours,0.143 × 200 = £28.60[1]Plot a line for Company B through (0, 0) and (200, 28.6).[1]Company B would have the steeper line because the cost per unit of electricity is higher [1]
 
 ",,
 294353,"
@@ -7141,6 +7369,9 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 294360,"
 
 
+
+",,
+294364,"List all the elements in A 'and' B.u, p, e, r [1] List all the elements in A 'or' B.s, u, p, e, r, c, o, m, t [1]
 
 ",,
 294374,"
@@ -7170,6 +7401,11 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 
 ",,
 299033,"Although you do not know all of the information, sketching a graph with a rough idea of where the lines go will help you to visualise this question. It does not matter if your lines are not in the exact places but make sure that they intersect each other according to the question.We can see from the graph that to find the area of the triangle we will need to find the values of a (the base of the triangle) and b (the perpendicular height to the base).Find the gradient of line L1  by rearranging its equation to the form . therefore gradient of L1 The gradients of perpendicular lines are negative reciprocals so the gradient of the line L2  is[1]The line L2  therefore takes the form  and passes through .Find the value of c by substituting  with 8 and  with 6.Simplify and solve to find .Now we can write the equation of the line in the form . [1]The line L2  crosses the - axis at the point where .Find the coordinates of A by substituting  with 0 and solving for .The coordinates of A are (5, 0) and the value of a = 5Find the coordinates of B, the point of intersection of L2  with the line , by substituting  into the equation for L2 .The coordinates of B are (-3, -16) and the value of b = -16[1]The formula for the area of a triangle is  where b is the base and h is the perpendicular height. Substitute the x coordinate of A and the y coordinate of B (ignoring the negative as we are looking for a height and height must be positive) into the formula.[1] [1]
+
+",,
+298891,"Method 1The particle is decelerating when its acceleration (the derivative of the velocity, which we found in part (c)), is negativeSet the derivative of the velocity to ""< 0"" and solve[1]The particle is decelerating for 2.5 seconds [1]
+
+Method 2The velocity function, , is quadratic, so we know its shape is a u-shaped parabola. To know when its gradient is negative, we just need the t-value of the minimum pointWe already found t-value of the minimum point in part (b) but we could also complete the square, or use the knowledge that for any quadratic , the axis of symmetry is at axis of symmetry at Now we can sketch; all we're really looking for is when the gradient is negative[1]The particle is decelerating for 2.5 seconds [1]
 
 ",,
 299294,"There are a few things wrong with the graph but only two are needed to score full marks.Points should be connected with straight lines on a time series graph [1]9.5 is missing from the vertical axis scale [1]Neither axes starts at zeroNo point is plotted for 2, 2016Unclear what the x-axis labels meanIf the x-axis is representing seasons/quarters then the labels for 1 are missingThere is no place for ""1"", 2016 on the graph
@@ -7203,6 +7439,11 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 
 ",,
 294833,"Isolate x by subtracting 3 from both sides of the equation, and then dividing both sides by 4.First correct step to solving [1] [1]
+
+",,
+300371,"Method 1Mitul has divided the lower bound of the total mass by the upper bound of the mass of one coin. Therefore he has worked out the lower bound for the number of coins.Check the lower bound for the total mass of 301 coins by multiplying the lower bound of the mass of one coin by 301.301 × 8.745 g = 2632.245 gMultiplying a possible mass by 301 [1]Answer between 2625 and 2635 [1]Round this to the nearest 10 g and then divide by 1000 to convert to kilograms.2632.245 g ≈ 2630 g2630 ÷ 1000 = 2.63 kgMitul may be incorrect as £301 could weigh 2.63 kg to the nearest 10 g [1]
+
+Method 2Mitul has divided the lower bound of the total mass by the upper bound of the mass of one coin. Therefore he has worked out the lower bound for the number of coins.Work out the upper bound for the number of coins by dividing the upper bound for the total mass by the lower bound for the mass of a coin.2635 g ÷ 8.745 g = 301.3150...Dividing a possible total mass by a possible mass of a coin  [1]Answer over 301 [1]The number of coins is in the range 299.8 to 301.3 (1dp).Mitul may be incorrect as there could be £301 [1]
 
 ",,
 294895,"First we need to rewrite the top as powers of prime numbers only.2 and 3 are already prime, so it is 18 we need to change.To do this we need the prime factorisation of 18.Rewrite the equation, including substituting in the given value for M and multiplying both sides by 122.[1]Use the laws of indices  and .Use the law of indices  to simplify the right hand side of the equation.Expand and simplify the powers of 2 and 3.32 is just a number (9) so we can divide both sides by it.  Also simplify the equation.[1]Rewriting 32 as a power of 2 allows us to set up an equation by comparing the indices.[1]This is a quadratic and so can be solved either by factorsing, completing the square or using the quadratic formula.[1]Solve by equating each factor to zero.There are no restrictions on the values of n so both answers are valid. [1]
@@ -7327,6 +7568,9 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 295728,"
 
 ",,
+295726,"As these are similar shapes, the area scale factor is the square of the length scale factor.Write down the ratio of the areas of the three different shapes. or  seen [1]Find the total area of the shaded part by subtracting the area of the smallest shape from the area of the middle-sized shape.Subtract the area of the middle-sized shape from the area of the largest shape.Add the result of this to the area of the smallest shape to find the total area of the parts that are unshaded. or   seen [1]Write down the ratio of the total shaded area to the total unshaded area.Simplify. [1]
+
+",,
 295746,"First we need to draw the lines for the 3 inequalities. To draw the lines, treat them as equations and use your knowledge of linear graphs y = mx + c. All three inequalities are  or  so should be drawn with solid linesFor , draw , a horizontal line through −1 on the y-axisFor , draw , a line through (0, 4) with a gradient of −1For , draw , a line through (0, −1) with a gradient of 3one mark for each correctly drawn line [3]Shade the unwanted  regions for each lineFor , the unwanted region is below the line, so simply shade below the line For , the unwanted region is above the line, so shade above. To check, pick a point such as (0, 0) and substitute into the inequality:(0, 0) is in the wanted region so shade everything on the other side of the line For , the unwanted region is above the line, so shade above. To check substitute (0, 0) again:(0, 0) is in the unwanted region, so shade the (0, 0) side of the line Finally, don't forget to label the wanted region ""R""!correct region clearly indicated [1]
 
 ",,
@@ -7338,6 +7582,12 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 295818,"
 
 
+
+",,
+299937,"Method 1Find the frequencies (areas) of all the bars (by multiplying their widths by their frequency densities) 2 × 2.5 + 3 × 4 + 5 × 3.4 + 5 × 2.2 + 15 × 1= 5 + 12 + 17 + 11 + 15 = 60allow one error [1]Find the frequency between 20 and 30 by splitting the 15 - 30 bar (to get a width from 20 to 30) 10 × 1 = 10[1]Find the proportion of customers who waited longer than 20 minutes (by dividing 10 by 60)   [1]Method 2Count the number of small squares in total (in all five bars) 100 + 240 + 340 + 220 + 300 = 1200 small squares in total[1]Count the number of small squares between 20 and 30 minutes 200 small squares[1]Find the proportion of customers who waited longer than 20 minutes (by dividing 100 by 600)   [1]
+
+",,
+295920,"
 
 ",,
 295947,"
@@ -7386,6 +7636,11 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 
 ",,
 296358,"You should be able to type directly into your calculator. [1]Convert to standard form. [1]
+
+",,
+296436,"Method 1Use the fact [1]Factorise out the largest square factor from 18. [1]
+
+Method 2Use the fact  to write the  as a product of prime factors. [1]Multiply the terms together and use the fact  [1]
 
 ",,
 296467,"Use the law of indices that .Write the value of . [1]Note that the answer is the value of m, not ""39""
@@ -7438,6 +7693,11 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 
 
 ",,
+296812,"Method 1Expand the brackets.[1]Subtract 15 from both sides.Divide both sides by 5. [1]
+
+Method 260 is divisible by 5 so divide both sides by 5.[1]Subtract 3 from both sides. [1]
+
+",,
 296847,"
 
 ",,
@@ -7476,12 +7736,25 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 297379,"On the diagram, mark on AE = 17 and AM = 8 (as it is half of AB = 16)  Use Pythagoras' Theorem to find EM2 [1] Take square roots of both sides to find EM15 [1]Square rooting must be seen for the final mark, as it is a ""show that"" question
 
 ",,
+300792,"Method 1Congruent triangles have three equal angles and three equal sides.You do not need to show that all of them are equal to prove congruence, you can look for one of the five standard tests of congruence. These are SAS, SSS, ASA, AAS, RHS. Use the information given in the question to look for corresponding angles and sides that are equal.Write which angles or sides are equal out clearly in the proof, making sure to give the reasons why they are equal.The point M is the midpoint of AC, so AM = MC. AM = MC The shape LMNB is a parallelogram. In parallelograms, opposite sides are equal. MN and BL are opposite sides in a parallelogram, so they are equal.The point L is the midpoint of AB, so AL = LB. AL = MN The shape LMNB is a parallelogram. In parallelograms, opposite sides are equal. LM and BN are opposite sides in a parallelogram, so they are equal.The point N is the midpoint of BC, so BN = NC. LM = NC The statement that if three corresponding sides are the same then the two triangles are congruent must be made. This is the SSS property (side, side, side)AM  = MC as M is the midpoint of AC.AL  = MN as L is the midpoint of AB and MN and BL are opposite sides of a parallelogram.LM  = NC as N is the midpoint of BC and LM and BN are opposite sides of a parallelogram.At least one of the three statements given, with reasons [1]Any two of the statements given, with reasons [1]By the standard test SSS the triangles are congruent.Reason given, must include reference to SSS [1]
+
+Method 2Congruent triangles have three equal angles and three equal sides.You do not need to show that all of them are equal to prove congruence, you can look for one of the five standard tests of congruence. These are SAS, SSS, ASA, AAS, RHS. Use the information given in the question to look for corresponding angles and sides that are equal.Write which angles or sides are equal out clearly in the proof, making sure to give the reasons why they are equal.The point M is the midpoint of AC, so AM = MC. AM = MC Corresponding angles on parallel lines are equal. Angle ALM = angle LBN = angle MNCThey are all corresponding angles on parallel linesCorresponding angles on parallel lines are equal. Angle AML = angle MCNThey are corresponding angles on parallel lines LM and BN are opposite sides in a parallelogram, so they are equal.The statement that if two corresponding angles and a corresponding side are the same then the two triangles are congruent must be made. This is the AAS property (angle, angle, side)AM  = MC as M is the midpoint of AC.Angle ALM  = angle MNC as they are corresponding angles on parallel lines.Angle AML  = angle MCN as they are corresponding angles on parallel lines.At least one of the three statements given, with reasons [1]Any two of the statements given, with reasons [1]By the standard test AAS the triangles are congruent.Reason given, must include reference to AAS [1]
+
+",,
 297380,"
 
 
 
 ",,
 297050,"Rewrite 20 as a multiplication involving a square number, in this case 4[1]Rewrite this surd using the fact that Simplify using  [1]
+
+",,
+300954,"Method 1:Ignore the decimal and find 183 × 47.Column method, multiply the 7 by each part in the top row, place a zero in the units column of the next row and then multiply the 4 by each digit. Add the two rows together. Complete method shown [1]Digits 8601 shown [1]183 = 1.83 × 100 so divide the answer by 100.1.83 × 47 = 86.01 [1]Method 2:Ignore the decimal and find 183 × 47.Grid method, split 183 into 100 + 80 + 3 and 47 into 40 + 7 and set up in a grid.Complete method shown [1]Digits 8601 shown [1]183 = 1.83 × 100 so divide the answer by 100.1.83 × 47 = 86.01 [1]
+
+",,
+297101,"Method 1The position vector of the midpoint of the line AB is found using the formula .[1]Simplify. [1]
+
+Method 2Find a path starting at A and ending at B using known vectors.Use the property that reversing the direction of the vector is the same as multiplying it by -1.Use the given vectors. [1]M is the midpoint of AB therefore .Find a path from O to M.Simplify.  [1]
 
 ",,
 307416,"Begin by joining the point O to the point A and marking all the radiuses as equal lengths on the diagram.This creates two isosceles triangles, triangle AOB and triangle AOC.The base angles of isosceles triangles are equal, mark these equal angles on the diagram, labelling the angles in one triangle with one variable and the angles in the other triangle with a different variable.Let angle  and angle .Then angle .Write angle BAC in terms of  and .[1]Angles in a triangle add up to 180°, use this to find the angles AOC and BOC.Angles at a point add up to 360°, use this to find an expression for angle BOC in terms of  and .[1]Simplify.[1]We have already shown that  .The base angles of an isosceles triangle are equalAngles at a point add up to 360°Therefore Angle BOC  =  2(Angle BAC ) All reasons given clearly [1]
@@ -7556,6 +7829,9 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 297867,"
 
 ",,
+297904,"Collect the g terms 6g - 4g = 2g Collect the h terms -5h + 2h = -3heither 2g or -3h seen [1]Write down the final answer2g - 3h [1]
+
+",,
 297906,"Substitute the given values into the given formula.[1] [1]
 
 ",,
@@ -7622,6 +7898,11 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 298217,"Begin by joining the point O to the point A and marking all the radiuses as equal lengths on the diagram.This creates two isosceles triangles, triangle AOB and triangle AOC.The base angles of isosceles triangles are equal, mark these equal angles on the diagram, labelling the angles in one triangle with one variable and the angles in the other triangle with a different variable.Let angle  and angle .Then angle .Write angle BAC in terms of  and .[1]Angles in a triangle add up to 180°, use this to find the angles AOC and BOC.Angles at a point add up to 360°, use this to find an expression for angle BOC in terms of  and .[1]Simplify.[1]We have already shown that  .The base angles of an isosceles triangle are equalAngles at a point add up to 360°Therefore Angle BOC  =  2(Angle BAC ) All reasons given clearly [1]
 
 ",,
+298246,"Method 1The position vector of the midpoint of the line AB is found using the formula .[1]Simplify. [1]
+
+Method 2Find a path starting at A and ending at B using known vectors.Use the property that reversing the direction of the vector is the same as multiplying it by -1.Use the given vectors. [1]M is the midpoint of AB therefore .Find a path from O to M.Simplify.  [1]
+
+",,
 298417,"
 
 ",,
@@ -7632,6 +7913,9 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 
 ",,
 298541,"
+
+",,
+298504,"The probability of rolling a 1 is The probability of rolling a 2 or a 3 is The probability of rolling an even number (2, 4, or 6) is The probability of rolling an odd number (1, 3, or 5) is   and  (or ) [1] and  [1]
 
 ",,
 298526,"You should be able to type directly into your calculator. [1]Convert to an ordinary number.[1]
@@ -7664,6 +7948,11 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 
 ",,
 298760,"Completing the square is easiest when dealing with a single, positive x2 term, so take a factor of -2.To avoid fractions, take this factor out of the x2 and x terms only.[1]Complete the square for the part in brackets.[1]Expand and rearrange into the required form.[1] [1]i.e. .
+
+",,
+298780,"Method 1Expand the brackets.[1]Subtract 15 from both sides.Divide both sides by 5. [1]
+
+Method 260 is divisible by 5 so divide both sides by 5.[1]Subtract 3 from both sides. [1]
 
 ",,
 298786,"
@@ -7726,6 +8015,12 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 
 ",,
 299043,"First multiply boht sides by  to eliminate the fraction.Use the law of indices """" to simplify both sides.[1]As both abse numbers (y) are the same, we can set up an equation using the powers only.Solve this equation to find n. [1]
+
+",,
+299068,"Simplify  by using the fact that 150 = 25 × 6Split up  by using  and combine the surds on the bottom of the fraction using the same idea in reverseSimplify top or bottom to be in terms of  [1]Simplify top and bottom to be in terms of  [1]Simplify the top of the fraction4 [1]
+
+",,
+299130,"Find the total cost of 23 tickets bought separately23 × £24 = £552Find the saving£552 - £425 = £127[1]Express the saving as a percentage of the total cost of buying separately[1]23% [1]
 
 ",,
 299160,"Use the law of indices that .Write the value of . [1]Note that the answer is the value of n, not ""521""
@@ -7855,6 +8150,11 @@ Calculate the total of the fares paid by the adults and the children. $ .......
 299841,"
 
 ",,
+299864,"(i)Find a path from O to T using known vectors. [1]
+
+(ii)Find a path from P to R using known vectors.Use the property that reversing the direction of the vector is the same as multiplying it by -1. [1]It is also acceptable to write:
+
+",,
 299870,"For example, go from B to A to C to D
 
 For example, go from M to B to NStart with M to B, which is a quarter of the vector p B to N is half of B to C (where B to C can be thought of as B to A to C)  Add together the two results above [1]Expand and collect like terms  [1]
@@ -7874,12 +8174,22 @@ For example, go from M to B to NStart with M to B, which is a quarter of the vec
 300106,"Start by expanding the bracket on the left-hand side.Remember to expand both parts of the bracket.[1]Bring the f terms to one side by subtracting the term with the smallest coefficient of f (f).  [1]Add 15 to both sides.Divide both sides by 4. [1]Or as a fraction
 
 ",,
+300117,"Method 1Expand the bracketsAdd 12 to both sidesDivide both sides by 6 or   [1]correct inequality sign [1]
+
+Method 2Divide both sides by 6Add 2 to both sides or   [1]correct inequality sign [1]
+
+",,
 300140,"
 
 
 
 ",,
 300147,"Start by expanding the bracket on the right-hand side.Remember to expand both parts of the bracket.[1]Bring the x terms to one side by subtracting the term with the smallest coefficient of x (3x).  [1]Add 6 to both sides.Divide both sides by 2. [1]Or as a fraction
+
+",,
+297277,"Method 1In a speed-time graph, the area under the graph is the distance.Start by finding the distance during the first 4 seconds, which is on the graph is in the shape of a triangle. Area of triangle.area of triangle[1]                = 20The distance remaining to reach 75 metres is;75 − 20 = 55 metresFrom 4 seconds onwards, the graph is a rectangle so area = length × height. The area needed is 55, the height is 10 and we need the length marked  on the diagram that gives 55. (Note that although it's marked on the diagram between 9 and 10, this is a guess and we don't actually know yet where it will be). [1]So the total time to reach 75 metres is the first 4 seconds plus another 5.5 seconds. total time = 4 + 5.5 = 9.5 seconds9.5 seconds [1]
+
+Method 2In a speed-time graph, the area under the graph is the distance.This graph is in the shape of a trapezium and area of a trapezium  where  and  are the parallel lines and  is the height.   and ''  or equivalent [1]In the diagram above, the longer parallel length has been called . Note that although it's marked on the diagram between 10 and 11, we don't actually know yet where it will be- it's marked on the diagram for demonstration purposes only. The trick to this question is to find the value of  that gives an area of 75.The smaller parallel length becomes   and the height , , is 10. Substitute these into the trapezium formula and equate to 75.[1]Solve for .After 9.5 seconds [1]
 
 ",,
 300174,"As √5 is in the answer, write each term as a product involving √5.[1]Add the terms together. [1]
@@ -7989,6 +8299,9 @@ For example, go from M to B to NStart with M to B, which is a quarter of the vec
 300678,"Substitute the given values into the given formula  [1]Find the value of this using your calculator, be careful with negatives and powers, use brackets as shown to help Round to 4 significant figures and write in standard form1991 is 1.991×1000, which is 103 [1]Correct rounding to 4 significant figures [1]Correct application of standard form [1]
 
 ",,
+300719,"
+
+",,
 300864,"
 
 ",,
@@ -7996,6 +8309,11 @@ For example, go from M to B to NStart with M to B, which is a quarter of the vec
 
 ",,
 301167,"Start by expanding the bracket on the left-hand side.Remember to expand both parts of the bracket.[1]Bring the x terms to one side by subtracting the term with the smallest coefficient of x (2x).  [1]Subtract 12 from both sides.Divide both sides by 2. [1]
+
+",,
+301273,"(i)Find a path from O to T using known vectors. [1]
+
+(ii)Find a path from P to R using known vectors.Use the property that reversing the direction of the vector is the same as multiplying it by -1. [1]It is also acceptable to write:
 
 ",,
 301349,"Find the vector  by finding a path starting at A and ending at B using known vectors.Use the property that reversing the direction of the vector is the same as multiplying it by -1.Use the given vectors.Use the ratio to write AN as a fraction of AB.AN : NB  = 2 : 1 therefore AN is  of the length AB.Use the vector for [1]Find a path starting at O and ending at N.[1]Substitute the expressions for the vectors.Simplify. [1]It is acceptable to write in factorised form:
@@ -8023,6 +8341,16 @@ For example, go from M to B to NStart with M to B, which is a quarter of the vec
 
 ",,
 301484,"
+
+",,
+301709,"Method 1Expand the bracketsAdd 12 to both sidesDivide both sides by 6 or   [1]correct inequality sign [1]
+
+Method 2Divide both sides by 6Add 2 to both sides or   [1]correct inequality sign [1]
+
+",,
+301707,"Method 1Expand the bracketsAdd 12 to both sidesDivide both sides by 6 or   [1]correct inequality sign [1]
+
+Method 2Divide both sides by 6Add 2 to both sides or   [1]correct inequality sign [1]
 
 ",,
 301783,"Use  to work out the frequency of each bar on the histogram.The last bar will need splitting at a weight of 100 grams.Work out the number of plums with a weight less than 100 grams, and the total number of plums.One mark for each [2]Now write the proportion as a fraction.The proportion of plums with a weight less than 100 grams is  [1]A decimal or percentage answer is also allowed (0.938 or 93.8% (3 s.f.)).
@@ -8178,6 +8506,9 @@ Method 2 - Using the cosine ruleThe formula for the cosine rule is , where a an
 
 ",,
 302493,"Triangles AOD and COD are congruent, right-angled triangles. The angle between a tangent and a radius is always 90o.Use SOHCAHTOA to calculate the angle AOD.You know the adjacent and the hypotenuse, so use .Recognition that AOD is a right angle [1][1][1]Find the reflex angle AOC, by subtracting two lots of  from 360o, because angles around a point add up to 360o.Work out the arc length of sector AOC, using the formula for the arc length of a sector: , where  is the radius and  is the angle of the sector.[1]Round to 3 significant figures. [1]Answers in the range 21.5-21.65 will be accepted
+
+",,
+302505,"Multiply 420 by 2/7 to find the number of vanilla cakes..      [1]Multiply 420 by 0.35 to find the number of banana cakes.      [1]Subtract 120 and 147 from 420, to find the total number of lemon and chocolate cakes.      [1]The sum of the ratio numbers in the lemon : chocolate ratio will be the number of 'parts' that the ratio divides the 153 cakes into.Divide 153 by that sum to find the size of one part.Then multiply that by 4 (the 'lemon' number in the ratio) to find the number of lemon cakes.  [1]68 lemon cakes  [1]
 
 ",,
 302519,"
@@ -8352,6 +8683,9 @@ Method 2: Using ""turning point by completing the square""After translation by  
 303352,"As  is a multiple of 5, Let , were  is an integerRewrite  and  in terms of .Now consider  - this is the difference of two squares.[1]Substitute  and  in terms of .Simplify, bearing in mind to show a multiple of 20 we require a result in the form """".For """" [1]Which is in the required from so we can write a statement for the proof.Since , for some integer ,  is always a multiple of 8 [1]If you don't spot the difference of two squares, this question can still be completed but it will involve a lot of expanding brackets and simplifying - try it!
 
 ",,
+303423,"Find an expression in terms of r for the area of the sector OAPB using the formula for the area of a sector .Find an equation in terms of r by setting the area of the sector OAPB equal to .[1]Simplify and divide both sides by.Use your calculator to find the value of r. [1]Find the perimeter of the shaded segment APB by adding the length of the line segment AB  to the length of the arc APB.Use the cosine rule with the triangle OAB to find the length of AB.Cosine rule: .Substitute the values into the formula.[1]Simplify the expression, type it in the calculator as one long expression. If you evaluate the expression bit by bit then remember to apply the order of operations (multiplication before subtraction).Calculating the arc length APB using the formula for the arc length of a sector: , where  radius of the circle and  is the angle of the sector. [1]Simplify.Calculate the perimeter of the shaded segment by adding the arc length to the length AB.[1]Round the answer to a suitable degree of accuracy (e.g. 3 significant figures). [1]
+
+",,
 303377,"
 
 
@@ -8433,6 +8767,11 @@ Method 280 is a multiple of 20 so write √80 as a multiple of √20.Simplify th
 
 ",,
 303986,"From , Line A has gradient 4. The gradients of perpendicular lines are negative reciprocals so the gradient of the line perpendicular to Line A is;[1]Line B therefore takes the form  and passes through . Substitute this point into the equation.[1]Solve for .Now we can write the equation of Line B in the form .Substitute  into Line B and solve for  to find where it intersects the -axis.[1](Subtract 7 from both sides)(Multiply both sides by -4)Write the final answer as a pair of coordinates. [1]
+
+",,
+304000,"Method 1The formula for the sum of the interior angles of an n-sided polygon is  Substitute n = 15 into the formula.[1]It is a regular polygon so all the angles are the same. Divide by 15 to find the size of each interior angle.156 degrees [1]
+
+Method 2The formula for the external angle of a regular n-sided polygon is  Substitute n = 15 into the formula.[1]An exterior angle and its corresponding interior angle form a straight line so add up to 180°. Subtract the exterior angle from 180.156 degrees [1]
 
 ",,
 304018,"First find the probability that Liz picks a blue ball.[1]With combined probabilities 'and' usually means 'multiply' and 'or' usually means 'add'.'Mike picks a blue ball' is the same as     Liz picks blue (1/3) AND Mike picks blue (8/22)OR     Liz picks red (2/3) AND Mike picks blue (7/22)(Note that there will be 22 balls in bag Y after Liz puts her ball from bag X into it.  And 7 or 8 of those 22 balls will be blue, depending on which colour Liz picked from X and put into Y.)Multiply those fractions and then add the products together to find the answer. [2]1 mark for at least one correct product.  1 mark for two products added together.Now don't forget to show that the two probabilities are equal!P(Liz picks a blue ball) and P(Mike picks a blue ball) are both equal to   [1]
@@ -8571,7 +8910,17 @@ The expression has already been converted into completed square form so the easi
 304890,"Give the whole letter a name.Let  be a whole numberThen write the sentence in terms of .Using the result from part (a) we can say thatSpot that these are three consecutive numbers and so can be rewritten. are three consecutive numbers∴ at least one of them must be even, let this be [1]one will be a multiple of 3, let this be [1]let the other number be Now use algebra to show the required result that the product of these three numbers can be written in the form """".This is in the required form but we should say why  is an integer.Since  are integers,  is an integer∴ is a multiple of 6Write a conclusion to finish the proof.Since the difference between a whole number and it's cube can be written in the form , where  is an integer, the difference is a multiple of 6 [1]
 
 ",,
+304911,"
+
+",,
 304903,"
+
+",,
+304916,"(i)Go from A to O to B  [1]
+
+(ii)Go from K to J to IK to J is double A to B, found in part (i)J to I is double O to B [1]Expand and simplify  [1]
+
+(iii)Go from L to F to E to DL to F and E to D are both the same as A to B, found in part (i)F to E is the negative of O to A [1]Expand and simplify  [1]There are many other possible paths that lead to the same answer, such as L to F to O to D
 
 ",,
 304923,"Number the equations. There is one quadratic equation and one linear equation so this must be done by substitution.Equation (2) already has y as the subject so we can substitute this into equation (1) without rearranging and this will eliminate y.[1]Expand the brackets, remember that a bracket squared should be treated the same as double brackets.[1]Simplify, including subtracting 34 from both sides so it becomes a quadratic equation that is equal to zero. [1]If you spot it, there is a factor of 2 we can divide through by to make the numbers smaller and easier to work with.The question does not give a specified degree of accuracy, so it is very likely this can be factorised.However if you cannot spot the factors you can still complete the square or use the formula.[1]Solve to find the values of .Let each factor be equal to 0 and solve.[1]Substitute the values of  into one of the original equations (the linear equation is easier) to find the values of .                     [1]
@@ -8639,6 +8988,11 @@ The expression has already been converted into completed square form so the easi
 
 ",,
 305306,"Rearrange the equation so that it is equal to 0 by subtracting 10x and 4 from both sides.[1]As the question asks for answers to 2 decimal places, it is likely that the answer is not an integer, so using the quadratic formula here is likely to be easier than trying to factorise.The quadratic formula states that if    then  .For this equation, .Substituting these values into the formula gives[1]Simplify.So the two solutions are[1]Find the values of these using your calculatorRound each value to 2 decimal places.For  the second decimal place is 4 and the digit following it is 1, which is less than 5 so do not round up. For  the second decimal place is 4 and the digit following it is 1, which is less than 5 so do not round up.   [1]
+
+",,
+305334,"Method 1Expand the brackets.[1]Subtract 15 from both sides.Divide both sides by 5. [1]
+
+Method 260 is divisible by 5 so divide both sides by 5.[1]Subtract 3 from both sides. [1]
 
 ",,
 305335,"Start by expanding the bracket on the left-hand side.Remember to expand both parts of the bracket.[1]Bring the x terms to one side by subtracting the term with the smallest coefficient of x (2x).  [1]Subtract 12 from both sides.Divide both sides by 2. [1]
@@ -8713,6 +9067,11 @@ For example, go from M to B to NStart with M to B, which is a quarter of the vec
 
 ",,
 305659,"is an exponential equation and you are required to recognise/ be able to draw its graph.All graphs in the form  where  is a number, go through 1 on the  axis (because when , ).The curve must not cross the -axis! correct shape curve in correct areas of the axes [1]clearly marked as passing through (0, 1) [1]
+
+",,
+301856,"Method 1You know two lengths of the right angled triangle ABC so you can use Pythagoras' theorem to find the length AC.[1]Take the positive square root of both sides. Leave as an exact value.[1]You now know the lengths of all three sides so you can find any angle. To find BAC, you should use the lengths given in the question (the opposite and adjacent sides). Use the tan ratio.[1]Find the angle by using the inverse tan function.You now know an angle and the length of the hypotenuse in the triangle ABD. You want to find the length of the side that is opposite the angle so use the sine ratio. Use the answer button or your calculator's memory to use the exact value for the angle BAC.[1]Multiply both sides by 5.Add together the four lengths. Use the answer button for the length of BD.Round to 3 significant figures. Remember to include the units for the length. [1]
+
+Method 2You know two lengths of the right angled triangle ABC so you can use Pythagoras' theorem to find the length AC.[1]Take the positive square root of both sides. Leave as an exact value.[1]Both triangles ABC and ABD are right angled and share an angle at the corner A. Therefore they have the same three angles so they are similar triangles. The scale factor between the lengths in ABC and the corresponding lengths are equal. AC corresponds to AB (they are both the hypotenuse of their triangles) and BC corresponds to BD (they are both opposite the angle at A).[1]Multiply both sides by 3.[1]Add together the four lengths.Round to 3 significant figures. Remember to include the units for the length. [1]
 
 ",,
 305616,"First look at triangle BCD.You know the length of one side and the angle opposite it. You also know another angle so you can find the length of the side opposite that using the sine rule.The formula for the sine rule is , where a and b are the lengths of the two sides that are opposite the angles A and B respectively.Substitute a = y, b = 12.5, A = 34 and B = 109 into the formula.[1]Multiply both sides by sin(34) and type into your calculator.[1]Now look at triangle ABD.You know the lengths of two sides and the angle between them and you want to find the length of the third side. Therefore you need to use the cosine rule.The formula for the cosine rule is , where b and c are the lengths of the two sides that form angle A and a is the length of the side opposite A.Substitute a = x, b = 11.4, c = 7.392674... (using the answer button) and A = 86 into the formula.[1]Type the expression into your calculator altogether as one line. If you do it separately you need to remember the order of operations (multiplication before addition).[1]Take the positive square root of both sides.Round to 3 significant figures. Remember to include units for the length. [1]
@@ -8904,6 +9263,11 @@ The expression has already been converted into completed square form so the easi
 306788,"
 
 ",,
+306698,"Method 1: Using ""transformations of functions""Curve  has the equation  where  . Therefore;This is the same equation as curve . And  represents a reflection in the x-axis.A reflection in the x-axis [1]
+
+Method 2: Using ""quadratic graphs"" and ""turning point by completing the square""Using your knowledge of quadratic graphs and turning point by completing the square, sketch the curve  and curve .The equation  tells us curve  is a n-shaped parabola with a turning point (−2, 9).The equation  tells us curve  is a u-shaped parabola, the same ""width"" as curve  and with a turning point (−2, −9).We can see from the sketch or from the information above that  and  are reflections of each other in the x-axis.A reflection in the x-axis [1]r
+
+",,
 306798,"To find the percentage profit we need to find the total selling price of all the bags of sweetsWe already know that Renee spent £10 on the sweetsTo find how many bags of sweets were sold, we need to find how many 250 g bags are in 5 kg5 kg = 5000 gThe easiest way to do this is write the division as a fraction and simplify[1]20 bags of sweets were sold, at 65p (or £0.65) each20 × 0.65 = 2 × 10 × 0.65 = 2 × 6.5 = £13[1]Renee sold the bags of sweets for a total of £13, after buying them for £10This is a profit of £3Find the percentage profit using Method for finding percentage profit [1]30% [1]
 
 ",,
@@ -9028,6 +9392,9 @@ ii)Rewrite the equation using the solution from part (i).Add 25 to both sides.Sq
 307426,"Start by making a common denominator on the left-hand side.To do this we need the lowest common denominator (lcd) of 4 and (x + 2).This can be found by multiplying them together.lcd of 4 and (x + 2) is 4(x + 2)Rewrite both fractions with the common denominator.The first fraction will need its numerator multiplying by (x + 2) and the second fraction by 4.[1]Write as a single fraction over the common denominator;  expand and simplify the numerator.[1]Factorise the numerator and cancel any common factors.There are no common factors to cancel.Bring in the right-hand side of the equation and remove the fraction by multiplying both sides of the equation by the denominator.[1]Expand and rearrange to get a quadratic equation.[1]The question suggests this quadratic will not factorise. (easily) as it is asking for answers to 2 decimal places so use the quadratic formula.[1]Round final answers to 2 decimal places.  (2 d.p.) [1]
 
 ",,
+307439,"A ∪ B means the union of A and B (everything in A or B or both)P(A ∪ B) means ""the probability of A or B or both""The top-left option, A or B or both, is correct [1]A but not B would be Not A and not B would be  or A and B would be
+
+",,
 307442,"Start by marking the given information on the diagram:We cannot assume that BC is 6 cm as we are not told that triangle ABC is isosceles. Therefore we need to use trigonometry with triangle BCE to find BC.Multiply both sides by 13 to find BC.[1]Store this result in your calculator to preserve accuracy in future calculations.We can use this result with the area of triangle ABC to find the angle ACB.[1]Rearrange to find the angle ACB.[1]Angle ACB is obtuse, as stated in the question, so subtract it from 180˚.[1]Finally, we can use the cosine rule with triangle ACB as we have two sides and an included angle, to find AC[1]Evaluate and square root both sides to find AC.Round your answer to 1 decimal place as requested.Answer = 12.4 cm [1]
 
 ",,
@@ -9057,6 +9424,11 @@ ii)Rewrite the equation using the solution from part (i).Add 25 to both sides.Sq
 307522,"
 
 
+
+",,
+307539,"Method 1The position vector of the midpoint of the line AB is found using the formula .[1]Simplify. [1]
+
+Method 2Find a path starting at A and ending at B using known vectors.Use the property that reversing the direction of the vector is the same as multiplying it by -1.Use the given vectors. [1]M is the midpoint of AB therefore .Find a path from O to M.Simplify.  [1]
 
 ",,
 307554,"Substitute the values in the diagram into the formula for the area of a trapezium.The formula is , where  and  are the two parallel sides and  is the perpendicular height.[1]The area is given as 351 cm2, so set this expression equal to 351.Simplify the expression in the brackets.Cancel out the 2.Expand the brackets on the right hand side.Subtract 351 from both sides. [1]
@@ -9113,6 +9485,16 @@ ii)Rewrite the equation using the solution from part (i).Add 25 to both sides.Sq
 302585,"Equate 7 to the expression for the 3rd term,  and equate 29 to the expression for the 6th term, [1]We have a pair of linear simultaneous equations. Solve using elimination or substitution. For example, using elimination;any valid process to solve simultaneous equations [1]Having found a or b, substitute it into either of the initial equations to find the remaining variable [1]
 
 ",,
+305165,"The formula for the area of a triangle is  where  is the base and  is the height.To find the distance apart the coordinates should be, set the formula equal to 28 square units and solve to find the product of the base and the height. [1]Choose coordinates such that the distance from (0, 0) to (c, 0) multiplied by the distance from (0, a) to (0, b) equals 56.Find a factor pair of 56 that is easy to work with, for example 7 and 8.Choosing the height to be 7, then c = 7 and the distance from (0, a) to (0, b) needs to be 8, with a positive and b negative.Choosing a = 5 and the distance from (0, a) to (0, b) needs to be 8, with a positive and b negative, so b will be -3. Any correct coordinates that give an area of 28 [1]
+
+",,
+302794,"(i)Go from A to O to B  [1]
+
+(ii)Go from K to J to IK to J is double A to B, found in part (i)J to I is double O to B [1]Expand and simplify  [1]
+
+(iii)Go from L to F to E to DL to F and E to D are both the same as A to B, found in part (i)F to E is the negative of O to A [1]Expand and simplify  [1]There are many other possible paths that lead to the same answer, such as L to F to O to D
+
+",,
 302899,"Substitute the second equation into the the first.[1]Work carefully as you will be dealing with fractions within fractions - to deal with this you can write the 'main' fraction as a division statement, as below.Multiply out the (round) brackets.Make a common denominator within the square brackets.[1]Simplify the numerator.[1]This is 'dividing by a fraction' so use the shortcut of switching ÷ to × and flipping the (second) fraction.There isn't anything else that can be simplified or cancelled. [1]
 
 ",,
@@ -9134,9 +9516,19 @@ ii)Rewrite the equation using the solution from part (i).Add 25 to both sides.Sq
 303107,"First note that if there are x orange beads, then there are a total of x + 7 beads in the bag to start with.Then after the first bead is taken, there will be x + 6 beads remaining in the bag.With combined probabilities 'and' usually means 'multiply' and 'or' usually means 'add'.'Takes two beads of the same colour' is the same as:     'takes one blue bead' () AND 'then takes another blue bead' ()OR     'takes one white bead' () AND 'then takes another white bead' ()OR     'takes one orange bead' () AND 'then takes another orange bead' ().(Note that after taking the first bead, the numbers of beads remaining in the bag changes.  So the numerator and denominator must change in the second probability fraction in each case, to reflect this.) Because the total probability is 3/8, those algebraic fractions multiplied and added together must also be equal to 3/8. [2]1 mark for a correct product of algebraic fractions.  1 mark for three correct products added together.Now expand the brackets and rearrange into a quadratic equation you can solve.[1]Now solve the quadratic equation.Here it's done by factorising, but you could also use the quadratic formula.But x is the number of orange beads, so it can't be a fraction.Therefore x = 9 must be the correct answer.Also be careful!  The question is asking for the total number of beads in the bags, not just the value of x.16 beads  [1]You must show a fully correct algebraic process to get this final answer mark.
 
 ",,
+303142,"Method 1 under translation by  becomes . Apply this to .translating 4 right, i.e. ""......""  or translating 6 up, i.e. ""..."" [1]  or   [1]There is no need to simplify; but any equivalent versions of this equation are accepted
+
+Method 2Rewrite  in the form  by completing the square.Translating by  changes  to . So subtract 4 inside the bracket and add 6 outside the bracket.equation in completed square form, followed by subtracting 4 inside the bracket or adding 6 outside the bracket [1]  or    [1]There is no need to simplify; but any equivalent versions of this equation are accepted
+
+",,
 268411,"Here are two sets of numbers, A and B.mean of Set A : mean of Set B = 3 : 8Work out the value of
 
 ",Error in response,"Here are two sets of numbers, A and B. The mean of Set A is related to the mean of Set B in a ratio of 3:8. To calculate the value, we need more information or additional equations."
+303284,"Method 1: Using ""transformations of functions""Curve  has the equation  where  . Therefore;This is the same equation as curve . And  represents a reflection in the x-axis.A reflection in the x-axis [1]
+
+Method 2: Using ""quadratic graphs"" and ""turning point by completing the square""Using your knowledge of quadratic graphs and turning point by completing the square, sketch the curve  and curve .The equation  tells us curve  is a n-shaped parabola with a turning point (−2, 9).The equation  tells us curve  is a u-shaped parabola, the same ""width"" as curve  and with a turning point (−2, −9).We can see from the sketch or from the information above that  and  are reflections of each other in the x-axis.A reflection in the x-axis [1]r
+
+",,
 303334,"First convert the ratios for each radius into fractions of the length of OP and OQ.OA =  of OP.OB =  of OQ.Write OA, OB, OP and OQ in terms of r. Find an expression in terms of r for the area of the sector OPQ using the formula for the area of a sector .Find an expression in terms of r for the area of the sector OAB using the formula for the area of a sector . Either expression correct [1]Find an expression in terms of r for the area of the shaded region by subtracting the area of sector OAB from the area of sector OPQ.Form an equation in terms of r for the area of the shaded region by setting it equal to .[1]Simplify and divide both sides by.[1]Use your calculator to find the value of r. Find the perimeter of the shaded section by calculating the arc length of the larger arc (PQ) and the smaller arc (AB) using the formula for the arc length of a sector: , where  radius of the circle and  is the angle of the sector. Either correct [1]Simplify.Find AP and BQ using the differences in the radius for OA and OB. Calculate the perimeter of the shaded segment by adding the arc lengths together along with the lengths of the straight edges joining them. [1]The answer should be left in terms of π, so simplify both parts separately. [1]
 
 ",,
@@ -9164,16 +9556,36 @@ ii)Rewrite the equation using the solution from part (i).Add 25 to both sides.Sq
 303808,"First look at triangle BCD.You know the length of one side and the angle opposite it. You also know another angle so you can find the length of the side opposite that using the sine rule.The formula for the sine rule is , where a and b are the lengths of the two sides that are opposite the angles A and B respectively.Substitute a = y, b = 12.5, A = 34 and B = 109 into the formula.[1]Multiply both sides by sin(34) and type into your calculator.[1]Now look at triangle ABD.You know the lengths of two sides and the angle between them and you want to find the length of the third side. Therefore you need to use the cosine rule.The formula for the cosine rule is , where b and c are the lengths of the two sides that form angle A and a is the length of the side opposite A.Substitute a = x, b = 11.4, c = 7.392674... (using the answer button) and A = 86 into the formula.[1]Type the expression into your calculator altogether as one line. If you do it separately you need to remember the order of operations (multiplication before addition).[1]Take the positive square root of both sides.Round to 3 significant figures. Remember to include units for the length. [1]
 
 ",,
+304057,"i)Measure the distance between the hall and the post office on the map.Multiply this length by 20 m to find the actual distance.7.7 × 20 m154 m [1]Answers in the range 150 to 158 are accepted
+
+ii)Draw a line between the hall and the post office on the map. The bearing from the post office to the hall will be bigger than 180. You can either measure it directly using a full 360 protractor. Otherwise you can find the reverse bearing (from the hall to the post office) and then add 180.152 + 180332° [1]Answers in the range 330 to 334 are accepted
+
+",,
 304144,"To find the area of the circle, the length of the radius will need to be found.BD is a diameter so angle BCD is the angle in a semicircle.Angle BCD = 90° (The angle in a semicircle is a right angle)Triangle BCD is a right-angled triangle, so if one more angle is found, SOHCAHTOA can be used to find the length of the diameter.Find angle CBD.Angle CBD = Angle CAD   (Angles in the same segment are equal)Angle CBD = 28°Either angle BCD or angle CBD found [1]Triangle BCD is a right angled triangle with an angle so you can use trigonometry. You know the length of the side that is opposite to the angle and you want the length of the hypotenuse. Therefore you can use the sine ratio: .[1]Rearrange to make BD the subject.[1]The radius is equal to half of the diameter.You can now find the area of the circle using the formula , where r is the radius of the circle. Use the answer button or store the radius in your calculator's memory.[1]Round to 3 significant figures. Remember to include square units for the area. [1]Answers in the range 145.2 to 146.2 accepted.
 
 ",,
 304184,"First turn the male : female ratio into fractions.For male, divide the 'male' ratio number by the sum of the ratio numbers.For female, divide the 'female' ratio number by the sum of the ratio numbers.This will give the fraction of the total village population that is male or female.[1]Turn 40% into a fraction, to see what fraction of the village are right-handed males.So 2/5 of the village are right handed males.And 2/3 of the village are males.Divide 2/5 by 2/3 to find the fraction (or proportion) of males who are right-handed.[2]2 marks for a complete correct method to find the proportion of males who are right-handed.Turn 25% into a fraction, to see what fraction of the village are right-handed females.So 1/4 of the village are right handed females.And 1/3 of the village are females.Divide 1/4 by 1/3 to find the fraction (or proportion) of females who are right-handed.[2]2 marks for a complete correct method to find the proportion of females who are right-handed.State your conclusion.3/4 (=75%) of females are right-handed.  3/5 (=60%) of males are right-handed.  3/4 > 3/5, so the proportion of females who are right-handed is greater than the proportion of males who are right-handed.  [1]
 
 ",,
+304190,"i) Use a factor tree to find the prime factors of 450[1]450 = 2 × 3 × 3 × 5 × 5[1]2×32×52 [1]
+
+ii) To find the highest common factor of 450 and 270, we also need to find the prime factors of 270, we can do this either with a factor tree, or it can be quicker to consider the following270 = 10 × 27 = 10 × 33 = 5×2×33[1]450 = 2×32×52 and 270 = 2×33×5Put the prime factors into a Venn diagram[1]The highest common factor is the product of the numbers in the overlapping section in the middle of the Venn diagram2×3×3×5 = 9090 [1]
+
+",,
+304208,"(i)Count how many even numbers there are in the grid (not including the row headings and the column headings) 13 even numbers 13 possibilities out of all 25 possibilities in the grid are evenWrite this as a probability (13 divided by 25) fraction with denominator of 25 [1] [1]
+
+(ii)Count how many numbers in the grid could be labelled ""a multiple of 3 or 4"" (not including the row headings and the column headings)Do not count multiples of both 3 and 4 twice 14 numbers 14 possibilities out of all 25 possibilities in the grid are a multiple of 3 or 4Write this as a probability (14 divided by 25) fraction with denominator of 25 [1] [1]
+
+",,
 304271,"Begin by letting the unknowns in the two boxes be x and y.FIll in the information you know about the inputs and outputs.Use the information to form equations. Number the equations so that they are easier to solve. [1]Eliminate the y terms by subtracting equation (1) from equation (2). Be careful to subtract every term.The coefficients of y are the same with the same signs, so subtract them.[1]Solve the equation to find x by dividing both sides by 4.Substitute   into either of the two original equations.Solve this equation to find y.Substitute  and  into the other equation to check that they are correct.[1]
 
 ",,
 304715,"The width of the the 0 - 2 bar is 2 and the frequency is 28Work out the frequency density () frequency density = [1] 35 small squares in height are 14 units of frequency densityso 5 small squares in height are 2 units of frequency densityWrite the frequency-density scale on the diagram  Work out the frequencies (areas) of the other bars (by multiplying bar width by frequency density) 2 × 20,  1 × 30,  1 × 24,  3 × 12at least three bars correct [1]Fill in the table with these frequencies Work out an estimate of the mean time (the sum of the ""midpoints × frequencies"" divided by the sum of the ""frequencies"") numerator [1]numerator and denominator [1]4.32 hours [1]
+
+",,
+304287,"Method 1Round both values to the nearest 1000 and write as a ratio.6000 : 16000Rounding at least one value [1]Simplify by dividing both parts of the ratio by 2000.3 : 8[1]Katie is correct as 3 : 8 = 6000 : 16000 which is close to 6400 : 16200 [1]
+
+Method 2Simplify the ratio.6400 : 1620064 : 16232 : 81[2]Divide both parts by 10.3.2 : 8.1Katie is correct as 6400 : 16200 = 3.2 : 8.1 which is close to 3 : 8 [1]
 
 ",,
 304306,"Ceri could have halved the frequency of 20 to 40 to get the frequency of 30 to 40. Add this to the frequency of 40 to 80 to get the number of people that took more than 30 minutes.[1]Write this as a percentage of the total.25% of all of the students at this Academy took more than 30 minutes [1]
@@ -9184,6 +9596,11 @@ Ceri is assuming that the times in the interval  are evenly distributed [1]It i
 304494,"Method 1Draw a diagram showing a cube with dimensions of  cm. Add the longest diagonal to the diagram and give this a length of 25 cm. It also may help to add the right-angled triangles that the diagonal makes with the edges onto the diagram.Use Pythagoras' theorem for 3D shapes, , to find an expression for the square of the length of the longest diagonal in terms of [1]Form an equation by setting  equal to the square of the longest diagonal, 25 cm.[1]At this point you can solve the equation to find , however it is not necessary as the surface area of a cube is 6 multiplied by the area of one of the squares, so the surface area of the cube = .Correct formula for surface area [1]equating to 2 × 252 [1]Surface Area = [1]
 
 Method 2Draw a diagram showing a cube with dimensions of  cm.  Add the longest diagonal to the diagram and give this a length of 25 cm. It also may help to add the right-angled triangles that the diagonal makes with the edges onto the diagram.Use Pythagoras' theorem, , on the right-angled triangle on the base of the crate to find length of the diagonal on the base in terms of [1]Add this to the diagram.Use Pythagoras' theorem on the right-angled triangle made up of the diagonal at the base, the side with length  cm and the longest diagonal, 25 cm.[1]Solve the equation to find .[1]Find the area of one face of the cube.The surface area of a cube is 6 multiplied by the area of one of the squares, so the surface area of the cube = . [1]Surface Area = [1]
+
+",,
+304580,"Method 1Multiply 14.3 pence by 450 to compare with the result of part (a). But convert 14.3 pence to £0.143 first.0.143 × 450[1]cost for 450 kwH = £64.35[1]Company B would have the steeper line because the cost per unit of electricity is higher [1]
+
+Method 2Plot the gradient represented by 14.3 pence (£0.143) per hour on the graph. For example, after 200 hours,0.143 × 200 = £28.60[1]Plot a line for Company B through (0, 0) and (200, 28.6).[1]Company B would have the steeper line because the cost per unit of electricity is higher [1]
 
 ",,
 304644,"To calculate the estimate of the mean the number of students (frequency) for each group needs to be found from the histogram, by finding the area of each of the bars.Area of the 30 - 40 minute bar, frequency density = 1.30 -40 min = 10 × 1 = 10Area of the 40 - 45 minute bar, frequency density = 4.40 -45 min = 5 × 4 = 20The frequencies of each group are now known (the last two group frequencies were found in part (b)). Put these in a table and find the midpoint of each class group.To find the midpoints, add the upper and lower class boundaries, then divide by 2.This is the same as finding the mean of the class boundaries.Frequencies found [1]Midpoints found [1]To estimate the mean, we now need to find the product of the frequencies (f) and the midpoints (x) for each group.Add these to the table. Finding fx [1]An estimate for the mean () is given by the formula , where  is the total of the last row (fx) and  is the total of the second row (f).[1]An estimate for the mean time taken is 50.25 minutes [1]
@@ -9204,6 +9621,13 @@ Method 2Draw a diagram showing a cube with dimensions of  cm.  Add the longest
 304922,"Start by adding to the diagram the 5 students who have neither a dog or a cat or a rabbit, and the 6 who have a dog, a cat and a rabbit.2 or 3 correct values inserted [1]Work outwards; next add the students who have two types of pet. have both a dog and a cat but this includes the 6 students in the centre who have all three type of pet, so enter  here9 have both a dog and a rabbit but this includes the 6 students in the centre who have all three type of pet, so enter 3 here8 have both a cat and a rabbit but this includes the 6 students in the centre who have all three type of pet, so enter 2 here4 to 7 correct values inserted [1]Now add the students who have only one type of pet.20 students have a rabbit; use the Venn diagram so far to work out how many students have only a rabbit.only a rabbit = 20 − (3 + 6 + 2) = 918 students have a cat; use the Venn diagram so far to work out how many students have only a cat.only a cat = 18 − (2 + 6 +  − 6) = 18 − (2 + ) = 16 − 28 students have a dog; use the Venn diagram so far to work out how many students have only a dog.only a dog = 28 − (3 + 6 +  − 6) = 28 −(3 + ) = 25 − all values inserted correctly [1]
 
 ",,
+304988,"(i)Go from A to O to B  [1]
+
+(ii)Go from K to J to IK to J is double A to B, found in part (i)J to I is double O to B [1]Expand and simplify  [1]
+
+(iii)Go from L to F to E to DL to F and E to D are both the same as A to B, found in part (i)F to E is the negative of O to A [1]Expand and simplify  [1]There are many other possible paths that lead to the same answer, such as L to F to O to D
+
+",,
 305230,"Method 1All three lines are solid lines so take ≤ or ≥ (rather than < or >).For each line, first find its equation. One of them has already been given in the diagram: .The shaded region is below this line so the inequality is; [1]We then have a vertical line and another diagonal line.Vertical lines are of the form """" and in this case it passes through -1 on the x-axis so the equation is;And the shaded area is to the right of the line so the inequality is; [1]Diagonal lines are of the form """" where m is the gradient of the line and c is the y-intercept. We can find the gradient of the unlabelled diagonal line using , for example between (2, 2) and (0, 0).gradient = Therefore the line takes the form . And the y-intercept is 0 so the equation of the unlabelled diagonal line is;The shaded region is above this line so the inequality is; [1]
 
 Method 2For each first find its equation, one of them has already been given in the diagram - .We then have a vertical line and another diagonal line.Vertical lines are of the form """".Diagonal lines are of the form """" where m is the gradient of the line and (x1, y1) is a point the line passes through.  To find the gradient we will need a second point the line passes through.The vertical lines passes through -1 on the x-axis so has equation The (unlablelled) diagonal line passes through (0, 0) and (2, 2) and has gradient , so has equation Now consider the inequalities for all three lines, including the given one.For  the region shaded is on the right of (above) its line, so the inequality is For  the region shaded is above the line, so the inequlaity is For  the region shaded is below the line, so the inequality is Bring everything together for the final answer.The shaded region is defined by the inequalities One mark for each correct inequality [3]
@@ -9212,10 +9636,20 @@ Method 2For each first find its equation, one of them has already been given in 
 305266,"First rearrange to the form [1]Now ignore the inequality sign and solve as a quadratic equation to find the rootstwo numbers that times to −18 and add to −3 are 3 and −6[1]Solve[1]Now that we have the roots, we need to consider the original inequality Sketch a graph of the quadratic. The squared term is positive so we sketch a U-shaped parabola......and  tells us to look for values above the -axis. It helps to shade the region we don't want- below the -axis [1]Always sketch the graph to decide which way to put the inequality signs- they must be correct to achieve the final mark
 
 ",,
+305349,"Method 1You know two lengths of the right angled triangle ABC so you can use Pythagoras' theorem to find the length AC.[1]Take the positive square root of both sides. Leave as an exact value.[1]You now know the lengths of all three sides so you can find any angle. To find BAC, you should use the lengths given in the question (the opposite and adjacent sides). Use the tan ratio.[1]Find the angle by using the inverse tan function.You now know an angle and the length of the hypotenuse in the triangle ABD. You want to find the length of the side that is opposite the angle so use the sine ratio. Use the answer button or your calculator's memory to use the exact value for the angle BAC.[1]Multiply both sides by 5.Add together the four lengths. Use the answer button for the length of BD.Round to 3 significant figures. Remember to include the units for the length. [1]
+
+Method 2You know two lengths of the right angled triangle ABC so you can use Pythagoras' theorem to find the length AC.[1]Take the positive square root of both sides. Leave as an exact value.[1]Both triangles ABC and ABD are right angled and share an angle at the corner A. Therefore they have the same three angles so they are similar triangles. The scale factor between the lengths in ABC and the corresponding lengths are equal. AC corresponds to AB (they are both the hypotenuse of their triangles) and BC corresponds to BD (they are both opposite the angle at A).[1]Multiply both sides by 3.[1]Add together the four lengths.Round to 3 significant figures. Remember to include the units for the length. [1]
+
+",,
 305353,"First convert the ratios for each radius into fractions of the length of OP and OQ.OA =  of OP.OB =  of OQ.Write OA, OB, OP and OQ in terms of r. Find an expression in terms of r for the area of the sector OPQ using the formula for the area of a sector .Find an expression in terms of r for the area of the sector OAB using the formula for the area of a sector . Either expression correct [1]Find an expression in terms of r for the area of the shaded region by subtracting the area of sector OAB from the area of sector OPQ.Form an equation in terms of r for the area of the shaded region by setting it equal to .[1]Simplify and divide both sides by.[1]Use your calculator to find the value of r. Find the perimeter of the shaded section by calculating the arc length of the larger arc (PQ) and the smaller arc (AB) using the formula for the arc length of a sector: , where  radius of the circle and  is the angle of the sector. Either correct [1]Simplify.Find AP and BQ using the differences in the radius for OA and OB. Calculate the perimeter of the shaded segment by adding the arc lengths together along with the lengths of the straight edges joining them. [1]The answer should be left in terms of π, so simplify both parts separately. [1]
 
 ",,
 305393,"Use the index law that  to simplify the numerator.[1]Rearrange so that 7p appears on its own side.And use the index law that  to simplify the left hand side to a single power of 7.Write the value of . [1]
+
+",,
+305437,"(i) of an amount of carrots needs to equal 10 000Call the amount x and form an equation  Multiply both sides by 7 and divide both sides by 3 [1]Work out this value  Round this to the nearest whole number, as x is a number of carrots (so can't be a decimal) 23 333 carrots [1]whole numbers from 23 000 to 23 334 (inclusive) are accepted(to guarantee at least 10 000 whole carrots, 23 334 carrots are needed as 23 333 are not quite enough)
+
+(ii)Comment on the fact that Jeat's garden and the farm are different environments or that Jeat's sample is too small to make big decisions from The growing conditions on the farm may be different to the garden [1]Accept also ""Jeat's sample is too small""References to part (b)(i) not being an integer are not accepted
 
 ",,
 305522,"Draw a radius from O to point B.Let angle OBA  = [1]Angle OBC  = 90o   (Angle between a radius and a tangent = 90o) [1]Find angle OAB.Angle OAB  = Angle OBA   (Triangle OAB  is isosceles)Angle OAB  = Find angle AOB.Angle AOB  + Angle OAB  + Angle OBA  = 180o   (Angles in a triangle = 180o)Angle AOB  +  +  = 180Angle AOB  = (180 - 2)oFind angle BOC.Angle BOC  + Angle AOB  = 180o   (Angles along a straight line = 180o)Angle BOC  + 180 - 2 = 180Angle BOC  = 2o Find angle OCB.Angle OCB  + Angle OBC  + Angle BOC  = 180o   (Angles in a triangle = 180o)Angle OCB  + 90 + 2 = 180[1]Angle OCB  = 90 - 2Find angle ACB.Angle ACB  = Angle OCBAngle ACB  = (90 - 2)o [1]Full reasons given for method throughout [1]
@@ -9233,6 +9667,11 @@ Method 2For each first find its equation, one of them has already been given in 
 
 ",,
 305766,"Form an expression for the area of the rectangle.Form an expression for the area of the triangle using the formula . Both expressions formed  [1]Form an inequality by setting the expression for the area of the rectangle greater than the expression for the area of the triangle.Simplify the left-hand side by expanding the double brackets and collecting the like terms together.Simplify the right-hand side by cancelling the 2s.Rearrange to make this a quadratic equation equal to zero.  [1]Begin to factorise by multiplying 2 by 2.2 × 2 = 4 Find two numbers that multiply to give 4 and add to give -5 (the middle number)-1 and -4Split the middle term into -x and -4x. Factorise fully the first pair of terms and the second pair of terms, either 2 or -2 could be factorised out of the last two terms, but the aim is to get the brackets the same so -2 should be factorised.  Factorise out the whole (2x - 1) bracket as if it were one term, leaving x and -2 in their own bracket.  [1]This means that the graph of  has roots at  and .We are interested in the region where y is greater than 0, so this will be where the graph is above the x-axis. As the quadratic is positive, this will be in the regions above and below the roots. allowing sign errors [1]Considering the expressions given for the length and width of the rectangle, we can find restrictions on the value of x.Remember that both the length and the width must be positive.As , disregard . [1]
+
+",,
+306696,"Method 1Angles in a quadrilateral add up to 360o.Write down an equation adding together all four angles.You can rewrite the equation without brackets.[1]Rearrange the equation so that like terms are next to each other, remember to keep the sign in front of each term the same as it was when you re-arrange. Add/subtract the like terms, being careful with negatives![1]Solve the equation.It may be easiest to factorise the 9 out first. [1]
+
+Method 2Opposite angles in a parallelogram are equal.Write down an equation for the two opposite angles that have different expressions.[1]Solve the equation by first bringing the x terms to one side. The easiest method is to subtract the x term with the smallest coefficient.Add 15 to both sides.[1] [1]
 
 ",,
 306700,"is an exponential equation and you are required to recognise/ be able to draw its graph.All graphs in the form  where  is a number, go through 1 on the  axis (because when , ).The curve must not cross the -axis! correct shape curve in correct areas of the axes [1]clearly marked as passing through (0, 1) [1]
@@ -9314,3 +9753,69 @@ Method 2For each first find its equation, one of them has already been given in 
 267974,"For Class X,    number of boys : number of girls = 7 : 8For Class Y,    number of boys : number of girls = 3 : 4Which statement must be true?Tick one box.
 
 ",Error in response,"Based on the given information, we can see that the ratio of boys to girls in Class X is 7:8, and the ratio of boys to girls in Class Y is 3:4. We need to determine which statement must be true based on this information. The possible statements are not mentioned in the user's input, so it is difficult to determine the correct answer. Could you please provide the statements to choose from so that I can assist you further?"
+279709,"Some visitors to a campsite are in the ratio and .
+
+i)Calculate the ratio  in its simplest form. ................... : ................... : ................... [2]
+
+ii)There are 224 children at the campsite.Calculate the total number of men and women. [3]
+
+",,
+295186,"Method 1The formula for the sum of the interior angles of an n-sided polygon is  Substitute n = 15 into the formula.[1]It is a regular polygon so all the angles are the same. Divide by 15 to find the size of each interior angle.156 degrees [1]
+
+Method 2The formula for the external angle of a regular n-sided polygon is  Substitute n = 15 into the formula.[1]An exterior angle and its corresponding interior angle form a straight line so add up to 180°. Subtract the exterior angle from 180.156 degrees [1]
+
+",,
+298749,"Method 1Expand the bracketsAdd 12 to both sidesDivide both sides by 6 or   [1]correct inequality sign [1]
+
+Method 2Divide both sides by 6Add 2 to both sides or   [1]correct inequality sign [1]
+
+",,
+298119,"Method 1Multiply 14.3 pence by 450 to compare with the result of part (a). But convert 14.3 pence to £0.143 first.0.143 × 450[1]cost for 450 kwH = £64.35[1]Company B would have the steeper line because the cost per unit of electricity is higher [1]
+
+Method 2Plot the gradient represented by 14.3 pence (£0.143) per hour on the graph. For example, after 200 hours,0.143 × 200 = £28.60[1]Plot a line for Company B through (0, 0) and (200, 28.6).[1]Company B would have the steeper line because the cost per unit of electricity is higher [1]
+
+",,
+298774,"Method 1 under translation by  means add 6 to the equation and change x into x - 4. Apply this to .translating 4 right, i.e. ""......""  or translating 6 up, i.e. ""..."" [1]  or   [1]There is no need to simplify; but any equivalent versions of this equation are accepted
+
+Method 2Rewrite  in the form  by completing the square.Translating by  means replace x with x - 4 inside the bracket and add 6 outside the bracket.equation in completed square form, followed by subtracting 4 inside the bracket or adding 6 outside the bracket [1]  or    [1]There is no need to simplify; but any equivalent versions of this equation are accepted
+
+",,
+300392,"Method 1You know two lengths of the right angled triangle ABC so you can use Pythagoras' theorem to find the length AC.[1]Take the positive square root of both sides. Leave as an exact value.[1]You now know the lengths of all three sides so you can find any angle. To find BAC, you should use the lengths given in the question (the opposite and adjacent sides). Use the tan ratio.[1]Find the angle by using the inverse tan function.You now know an angle and the length of the hypotenuse in the triangle ABD. You want to find the length of the side that is opposite the angle so use the sine ratio. Use the answer button or your calculator's memory to use the exact value for the angle BAC.[1]Multiply both sides by 5.Add together the four lengths. Use the answer button for the length of BD.Round to 3 significant figures. Remember to include the units for the length. [1]
+
+Method 2You know two lengths of the right angled triangle ABC so you can use Pythagoras' theorem to find the length AC.[1]Take the positive square root of both sides. Leave as an exact value.[1]Both triangles ABC and ABD are right angled and share an angle at the corner A. Therefore they have the same three angles so they are similar triangles. The scale factor between the lengths in ABC and the corresponding lengths are equal. AC corresponds to AB (they are both the hypotenuse of their triangles) and BC corresponds to BD (they are both opposite the angle at A).[1]Multiply both sides by 3.[1]Add together the four lengths.Round to 3 significant figures. Remember to include the units for the length. [1]
+
+",,
+300868,"Method 1Angles in a quadrilateral add up to 360o.Write down an equation adding together all four angles.You can rewrite the equation without brackets.[1]Rearrange the equation so that like terms are next to each other, remember to keep the sign in front of each term the same as it was when you re-arrange. Add/subtract the like terms, being careful with negatives![1]Solve the equation.It may be easiest to factorise the 9 out first. [1]
+
+Method 2Opposite angles in a parallelogram are equal.Write down an equation for the two opposite angles that have different expressions.[1]Solve the equation by first bringing the x terms to one side. The easiest method is to subtract the x term with the smallest coefficient.Add 15 to both sides.[1] [1]
+
+",,
+272384,"Point  has coordinates (5, 7).Point  has coordinates (1, 2.5).Point  is the midpoint of the line .Find the coordinates of point .
+
+",,
+295888,"Method 1(This is the expected method and answer)The curve has been translated 6 to the right. Remember that when translating in the x-axis, + a units in the x direction leads to y = f(x – a)y = f(x – 6) [1]Answer must include ""y = ..."" to achieve the mark
+
+Method 2You should recognise the curve as a quadratic graph. The minimum point is at (4, 0) so the graph takes the form y = a(x − 4)2Pick another integer point, for example (3, 1) and substitute into y = a(x − 4)2, and solve to find a1 = a(3 − 4)21 = a(− 1)2a = 1Thereforey = (x − 4)2 [1]Note that this is not the expected method or answer- but it is equally valid
+
+",,
+305563,"Method 1 Using y = mx + cc represents the y-intercept. In this case c = 5, so draw a point at (0, 5)point at or line passing through (0, 5) [1]m represents the gradient. In this case m =  so From (0, 5), count 1 unit up and 2 units right. Mark a new point at (2, 6)Repeat: from (2, 6), count 1 unit up and 2 units right. Mark a new point at (4, 7)line with a gradient of 0.5 [1]Using a ruler or straight edge, draw a straight line through the three points, making sure your line extends in both directions between x = −2 and x = 4fully correct line [1]
+
+Method 2 Using a tableSet up a table of values as below. You don't have to include every integer between −2 and 4, but you should include at least three valuesUse the TABLE application of your calculator to complete the table, using f(x) = x + 5, starting at -2 and ending at 4. If your calculator doesn't have a TABLE application, substitute x values y = x + 5 to find the y valuesat least 2 correct y-values found by substituting x [1]Plot the points on the grid. For example the first column of the table represents the point (−2, 4)at least 2 points correctly plotted [1]Using a ruler or straight edge, draw a straight line through the points, from x = −2 to x = 4fully correct line [1]
+
+",,
+303332,"i)Measure the distance between the hall and the post office on the map.Multiply this length by 20 m to find the actual distance.7.7 × 20 m154 m [1]Answers in the range 150 to 158 are accepted
+
+ii)Draw a line between the hall and the post office on the map. The bearing from the post office to the hall will be bigger than 180. You can either measure it directly using a full 360 protractor. Otherwise you can find the reverse bearing (from the hall to the post office) and then add 180.152 + 180332° [1]Answers in the range 330 to 334 are accepted
+
+",,
+303988,"i)17 000 is what numbers would round to before 18 000. The lower bound will be the halfway point between 17 000 and 18 000. Find the difference, halve it and subtract it from 18 000.Lower bound = 18 000 - 500 = 17 500Check that the lower bound would round to 18 000.Minimum possible number is 17 500 [1]
+
+ii)19 000 is what numbers would round to after 18 000. The upper bound will be the halfway point between 18 000 and 19 000. Find the difference, halve it and add it to 18 000.Upper bound = 18 000 + 500 = 18 500Check that the upper bound would round to 18 000. Although it is the upper bound it would round to 19 000. Numbers such as 18 499.999 would still round to 18 000 however the number of people needs to be an integer. So choose the largest integer that is less than the upper bound.Maximum possible number is 18 499 [1]
+
+",,
+305802,"The points slope down on the scatter diagramORThere is a negative correlation on the scatter diagram [1] Use the histograms to examine the statement.Calculate the total number of men by multiplying the frequency density by the class interval.Calculate the number of men who underestimate the time interval.Calculate the total number of women.Calculate the number of women who overestimate the time interval. or more than half of the total number of men underestimated the time interval [1] or more than half of the total number of women overestimated the time interval [1]
+
+",,
+306631,"First divide 45 by 18 (the number of  mince pies in the recipe) to find the 'scale factor' for what Elaine wants to make:      [1]Then multiply that scale factor by the amount of each ingredient in the recipe, to find out how much of each she would need.  [2]1 mark for using 2.5 as a multiplier, then 1 mark for getting the amount for each ingredient correct (2 eggs or 3 eggs would also get that mark)Finally interpret your results in the context of the question.Elaine has enough butter, flour, sugar, and eggs.  But she only has 600 g of mincemeat, and she would need 700 g.  [2]
+
+",,

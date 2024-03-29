@@ -4,13 +4,45 @@ import os
 import django
 
 
-
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ai4vocab4.settings')
 django.setup()
 
-print("Successfully imported Django and Passage model")
 
-YOUR_API_KEY = "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"
+from passages.models import Passage
+
+# Situation 1: Counting and recording Passage objects where the chinese_translation field has the value "Error in response" or is an empty string.
+
+# Query to find passages with the specific conditions
+passages_with_translation_errors = Passage.objects.filter(
+    chinese_translation="Error in response"
+).union(
+    Passage.objects.filter(chinese_translation='')
+)
+
+# Count the passages
+count_chinese_translation_error = passages_with_translation_errors.count()
+
+# Get the list of ids
+passage_ids_with_translation_errors = list(passages_with_translation_errors.values_list('id', flat=True))
+
+# Print the results
+print(f"Number of Passage objects with chinese_translation value 'Error in response' or empty: {count_chinese_translation_error}")
+print(f"List of Passage IDs with translation errors or empty: {passage_ids_with_translation_errors}")
+
+
+print("*****************************************************************")
+
+import os
+import django
+from django.db import transaction
+
+# Set up Django environment
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ai4vocab4.settings')
+django.setup()
+
+from passages.models import Passage  # Ensure this path matches your project structure
+
+YOUR_API_KEY = "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"
 
 
 def gpt_translation_and_academic_terms(english_text, YOUR_API_KEY):
@@ -51,6 +83,7 @@ def gpt_translation_and_academic_terms(english_text, YOUR_API_KEY):
     # Make the request
     response = requests.post(endpoint, headers=headers, data=json.dumps(payload))
     response_json = response.json()
+    print(response_json)
     
     # Initialize the return variables
     chinese_translation = ""
@@ -80,60 +113,51 @@ def gpt_translation_and_academic_terms(english_text, YOUR_API_KEY):
     return chinese_translation, bilingual_terms, parsing_failed
 
 
-from passages.models import Passage 
+
+
+
 
 def update_passages_with_gpt_translation_and_academic_terms(YOUR_API_KEY):
-    # Update query to exclude passages where gpt_response_parsing_failed has a value    
-    passages_to_process = Passage.objects.filter(
-        chinese_translation__isnull=True,
-        gpt_response_parsing_failed__isnull=True
-    )
+    # Select passages directly by ID from the predefined list
+    passages_to_process = Passage.objects.filter(id__in=passage_ids_with_translation_errors)
 
-    # Get the total number of Passage objects to process
     total_passages = passages_to_process.count()
     print(f"Total Passages to process: {total_passages}")
 
-    # Counter for processed passages and list for tracking error IDs
     processed_count = 0
     error_passage_ids = []
 
-    # Iterate through filtered Passage objects
+    # Process each passage one by one
     for passage in passages_to_process:
         try:
-            # Get the English text from the Passage
-            english_text = passage.english_text
-            print(english_text)
+            with transaction.atomic():  # Use a transaction to ensure data integrity for each passage
+                english_text = passage.english_text
+                chinese_translation, bilingual_terms, parsing_failed = gpt_translation_and_academic_terms(english_text, YOUR_API_KEY)
 
-            # Get the Chinese translation, academic terms, and parsing_failed using the function
-            chinese_translation, bilingual_terms, parsing_failed = gpt_translation_and_academic_terms(english_text, YOUR_API_KEY)
+                if parsing_failed:
+                    passage.gpt_response_parsing_failed = parsing_failed
+                    print(passage.english_text)
+                    print(parsing_failed)
+                else:
+                    passage.chinese_translation = chinese_translation
+                    passage.gpt_response_academic_terms = bilingual_terms
+                    print(passage.english_text)
+                    print(chinese_translation)
+                    print(bilingual_terms)
 
-            if parsing_failed:
-                # If parsing_failed has a value, store it in passage.gpt_response_parsing_failed
-                passage.gpt_response_parsing_failed = parsing_failed
-                print(f"Parsing failed for Passage ID {passage.id}")
-            else:
-                # Update the Passage object with new values
-                passage.chinese_translation = chinese_translation
-                passage.gpt_response_academic_terms = bilingual_terms
-                print("Chinese Translation:", chinese_translation)
-                print("Bilingual_terms:", bilingual_terms)
-                print(f"Parsing success for Passage ID {passage.id}")
-
-            # Save the updated Passage object
-            passage.save()
-
-            # Increment the processed count
-            processed_count += 1
+                passage.save()
+                print(f"Processed Passage ID {passage.id} successfully.")
+                print("************************************************************")
+                processed_count += 1
 
         except Exception as e:
-            # Log the error, append the ID to the error list, and proceed with the next passage
             print(f"Error processing Passage ID {passage.id}: {e}")
             error_passage_ids.append(passage.id)
+            print("************************************************************")
 
-        print(f"Processed Passage ID {passage.id} ({processed_count}/{total_passages})")
-        print("********************************end*************************************")
-
-    # Print out the list of Passage IDs that encountered errors
+    print(f"Processed {processed_count}/{total_passages} passages.")
+    print("************************************************************")
+    
     if error_passage_ids:
         print("Passages that encountered errors:", error_passage_ids)
     else:
@@ -141,9 +165,8 @@ def update_passages_with_gpt_translation_and_academic_terms(YOUR_API_KEY):
 
 
 
-
 # Call the function to start the process
 update_passages_with_gpt_translation_and_academic_terms(YOUR_API_KEY)
 
 
-# exec(open("1_0_gpt_translation_and_academic_terms.py").read())
+# python 1_3_handle_failed_situation_1.py
