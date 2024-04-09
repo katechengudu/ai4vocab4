@@ -19,7 +19,6 @@ class Book(models.Model):
     
 class Passage(models.Model):
     book = models.ForeignKey(Book, null=True, blank=True, on_delete=models.CASCADE)
-    order = models.IntegerField(blank=True, null=True)
     english_text = models.TextField()
     chinese_translation = models.TextField(blank=True, null=True)
     token_count = models.IntegerField(blank=True, null=True)
@@ -27,9 +26,46 @@ class Passage(models.Model):
     sentences = models.ManyToManyField('Sentence', blank=True)
     haochen_database_id = models.CharField(max_length=36, blank=True, null=True)
     gpt_response_academic_terms = models.TextField(null=True, blank=True)  
-    gpt_response_parsing_failed = models.TextField(null=True, blank=True)  # New field
+    gpt_response_parsing_failed = models.TextField(null=True, blank=True)  
+    gpt_response_academic_terms_incorrect_removed = models.TextField(null=True, blank=True)  # New field
     def __str__(self):
         return self.english_text
+
+class math_text(models.Model):
+    subject = models.CharField(max_length=255)
+    level = models.CharField(max_length=255)
+    section = models.CharField(max_length=255)
+    section_merged = models.CharField(max_length=255,blank=True, null=True)
+    topic = models.CharField(max_length=255)
+    english_text_problem = models.TextField()
+    haochen_data_problem = models.TextField()
+    english_text_solution = models.TextField()
+    haochen_data_solution = models.TextField()
+    haochen_database_id = models.CharField(max_length=36, blank=True, null=True)
+    
+    def __str__(self):
+        return self.english_text_problem
+    
+
+class MathTextToken(models.Model):
+    token = models.CharField(max_length=255)
+    lemma = models.CharField(max_length=255)
+    math_text = models.ManyToManyField(math_text, through='MathTokenOrigin', related_name='tokens')
+   
+
+
+class MathTokenOrigin(models.Model):
+    math_text = models.ForeignKey(math_text, on_delete=models.CASCADE)
+    math_text_token = models.ForeignKey(MathTextToken, on_delete=models.CASCADE)
+    origin = models.CharField(max_length=100, choices=(('problem', 'Problem'), ('solution', 'Solution')))
+    pos_tag = models.CharField(max_length=50)  # Field to store the grammatical property (POS tag)
+    
+    class Meta:
+        unique_together = ('math_text', 'math_text_token', 'origin', 'pos_tag')  # Consider your unique constraints here
+
+    def __str__(self):
+        return f"{self.math_text_token.token} ({self.pos_tag}) - {self.origin}"
+
 
 
 
@@ -63,17 +99,75 @@ class Sentence(models.Model):
         return self.english_text
 
 
+
+
 class Token(models.Model):
+    token = models.CharField(max_length=255,blank=True, null=True)
     lemma = models.CharField(max_length=255)
-    def __str__(self):
-        return self.lemma
-
+    lyrics = models.ManyToManyField('Lyrics', related_name='tokens', blank=True)  # Establishing the M2M relationship
+    ai_lyrics = models.ManyToManyField('AI_Lyrics', related_name='tokens', blank=True)  # New relationship
     
+    def __str__(self):
+        return self.token
+
+
+class Album(models.Model):
+    singer = models.CharField(max_length=255, default="Taylor Swift")
+    name = models.CharField(max_length=255)
+    year = models.CharField(max_length=4, blank=True, null=True)  # Consider changing max_length for year
+
+    def __str__(self):
+        return f"{self.name} ({self.year})"
 
 
 
+class Lyrics(models.Model):
+    LANGUAGE_CHOICES = [
+        ('EN', 'English'),
+        ('CN', 'Chinese'),
+        ('FR', 'French'),
+        ('KR', 'Korean'),
+        ('JP', 'Japanese'),
+        ('DE', 'German'),
+        ('ES', 'Spanish'),
+    ]
+    song_name = models.CharField(max_length=500)
+    album = models.ForeignKey(Album, on_delete=models.CASCADE, related_name='lyrics', null=True, blank=True)
+    singer = models.CharField(max_length=500,blank=True, null=True)
+    language = models.CharField(max_length=2, choices=LANGUAGE_CHOICES)
+    lyrics_text = models.TextField()
+    lyrics_summary_english = models.TextField(blank=True, null=True)
+    lyrics_summary_chinese = models.TextField(blank=True, null=True)
+    sentences = models.ManyToManyField('Sentence', blank=True)
+    list_of_tokens = models.TextField(null=True, blank=True)
+
+    def __str__(self):
+        return self.song_name
 
 
+
+class AI_Lyrics(models.Model):
+    LANGUAGE_CHOICES = [
+        ('EN', 'English'),
+        ('CN', 'Chinese'),
+        ('FR', 'French'),
+        ('KR', 'Korean'),
+        ('JP', 'Japanese'),
+        ('DE', 'German'),
+        ('ES', 'Spanish'),
+    ]
+    song_name = models.CharField(max_length=500)
+    inspired_by = models.ManyToManyField('Lyrics', blank=True)
+    singer = models.CharField(max_length=500,blank=True, null=True)
+    language = models.CharField(max_length=2, choices=LANGUAGE_CHOICES)
+    lyrics_text = models.TextField()
+    lyrics_with_chinese_translation = models.TextField(blank=True, null=True)
+    lyrics_with_english_translation = models.TextField(blank=True, null=True)
+    sentences = models.ManyToManyField('Sentence', blank=True)
+    list_of_tokens = models.TextField(null=True, blank=True)
+
+    def __str__(self):
+        return self.song_name
 
 
 
