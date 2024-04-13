@@ -172,4 +172,4 @@ with open('lemma_occurrences_by_section_merged_with_pos_tags.csv', mode='w', new
             writer.writerow([section_merged, token['math_text_token__lemma'], token['occurrences_in_section'], token['unique_topics_count'], pos_tags_str])
             
 
-# python 4_get_token_frequency.py
+# python 5_get_token_frequency.py
