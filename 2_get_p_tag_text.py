@@ -10,6 +10,14 @@ print("Successfully imported Django and Passage model")
 
 from passages.models import math_text
 
+# Define the list of wanted sections
+wanted = ['10-mensuration','4-geometry-and-measures','8-basic-geometry']
+section_merged = "Geometry and Measures"
+
+
+
+
+
 # HTML Stripper class
 class MLStripper(HTMLParser):
     def __init__(self):
@@ -30,11 +38,11 @@ def strip_tags(html):
     return s.get_data()
 
 # Get the total number of objects for progress tracking
-total_objects = math_text.objects.count()
+total_objects = math_text.objects.filter(section__in=wanted).count()
 print(f"Total objects to process: {total_objects}")
 
-# Loop through all math_text objects
-for index, obj in enumerate(math_text.objects.all(), start=1):
+# Loop through all math_text objects that have a section in the wanted list
+for index, obj in enumerate(math_text.objects.filter(section__in=wanted), start=1):
     # Parsing 'haochen_data_problem'
     problem_data_json = json.loads(obj.haochen_data_problem)
     problem_text = ' '.join([strip_tags(item['body']) for item in problem_data_json])
@@ -46,6 +54,8 @@ for index, obj in enumerate(math_text.objects.all(), start=1):
     # Save the cleaned text to the math_text object
     obj.english_text_problem = problem_text
     obj.english_text_solution = solution_text
+    obj.section_merged = section_merged
+    print(section_merged)
     obj.save()
 
     print(f"Processed {index}/{total_objects}: Updated object ID {obj.id}")

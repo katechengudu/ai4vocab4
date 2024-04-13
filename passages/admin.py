@@ -42,6 +42,18 @@ class PassageAdmin(ImportExportModelAdmin):
 
 
 
+from .models import math_text
+class math_textAdmin(admin.ModelAdmin):
+    list_display = ('subject', 'level', 'section','section_merged','topic','english_text_problem','english_text_solution')
+    
+
+from .models import MathTextToken
+class MathTextTokenAdmin(admin.ModelAdmin):
+    list_display = ('token','lemma')
+    
+
+
+
 from .models import AcademicTerm
 class AcademicTermAdmin(admin.ModelAdmin):
     list_display = ('term', 'chinese_meaning', 'source')
@@ -83,6 +95,8 @@ admin.site.register(Category, CategoryAdmin)
 admin.site.register(Book, BookAdmin)
 admin.site.register(Sentence, SentenceAdmin)
 admin.site.register(Passage, PassageAdmin)
+admin.site.register(math_text, math_textAdmin)
+admin.site.register(MathTextToken, MathTextTokenAdmin)
 admin.site.register(Lyrics, LyricsAdmin)
 admin.site.register(Token, TokenAdmin)
 admin.site.register(AI_Lyrics, AI_LyricsAdmin)
